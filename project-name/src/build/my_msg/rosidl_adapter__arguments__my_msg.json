@@ -1,0 +1,6 @@
+{
+  "package_name": "my_msg",
+  "non_idl_tuples": [
+    "/home/dotamy/project-name/src/my_msg:msg/A.msg"
+  ]
+}

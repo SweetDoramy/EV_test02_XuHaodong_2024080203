@@ -1,0 +1,189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000935] (-) JobUnselected: {'identifier': 'cpp_node_demo'}
+[0.001123] (-) JobUnselected: {'identifier': 'my_msg'}
+[0.001208] (-) JobUnselected: {'identifier': 'py_node_demo'}
+[0.001240] (-) JobUnselected: {'identifier': 'topic_demo_py'}
+[0.001269] (topic_demo_cpp) JobQueued: {'identifier': 'topic_demo_cpp', 'dependencies': OrderedDict()}
+[0.001301] (topic_demo_cpp) JobStarted: {'identifier': 'topic_demo_cpp'}
+[0.027470] (topic_demo_cpp) JobProgress: {'identifier': 'topic_demo_cpp', 'progress': 'cmake'}
+[0.030383] (topic_demo_cpp) JobProgress: {'identifier': 'topic_demo_cpp', 'progress': 'build'}
+[0.030683] (topic_demo_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dotamy/project-name/src/build/topic_demo_cpp', '--', '-j8', '-l8'], 'cwd': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'env': OrderedDict({'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dotamy/project-name/src/install/my_msg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/dotamy/project-name', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dotamy/project-name/src/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H6AF52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/dotamy/project-name/src/install/topic_demo_py:/home/dotamy/project-name/src/install/topic_demo_cpp:/home/dotamy/project-name/src/install/my_msg:/home/dotamy/project-name/src/install/cpp_node_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'SUDO_USER': 'dotamy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'PYTHONPATH': '/home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages:/home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dotamy/project-name/src/install/topic_demo_cpp:/home/dotamy/project-name/src/install/my_msg:/home/dotamy/project-name/src/install/cpp_node_demo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dotamy/project-name/src/install/topic_demo_py:/opt/ros/jazzy'}), 'shell': False}
+[0.098670] (-) TimerEvent: {}
+[0.193701] (topic_demo_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/subnode.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.199473] (-) TimerEvent: {}
+[0.201954] (topic_demo_cpp) StdoutLine: {'line': b'[ 75%] Built target pubnode\n'}
+[0.300475] (-) TimerEvent: {}
+[0.401298] (-) TimerEvent: {}
+[0.502257] (-) TimerEvent: {}
+[0.603092] (-) TimerEvent: {}
+[0.703686] (-) TimerEvent: {}
+[0.804564] (-) TimerEvent: {}
+[0.905583] (-) TimerEvent: {}
+[1.006744] (-) TimerEvent: {}
+[1.108781] (-) TimerEvent: {}
+[1.210433] (-) TimerEvent: {}
+[1.311593] (-) TimerEvent: {}
+[1.412707] (-) TimerEvent: {}
+[1.513732] (-) TimerEvent: {}
+[1.614842] (-) TimerEvent: {}
+[1.716391] (-) TimerEvent: {}
+[1.817772] (-) TimerEvent: {}
+[1.919715] (-) TimerEvent: {}
+[2.020678] (-) TimerEvent: {}
+[2.121752] (-) TimerEvent: {}
+[2.222839] (-) TimerEvent: {}
+[2.323901] (-) TimerEvent: {}
+[2.425749] (-) TimerEvent: {}
+[2.526993] (-) TimerEvent: {}
+[2.628631] (-) TimerEvent: {}
+[2.729490] (-) TimerEvent: {}
+[2.830872] (-) TimerEvent: {}
+[2.932544] (-) TimerEvent: {}
+[3.033671] (-) TimerEvent: {}
+[3.134790] (-) TimerEvent: {}
+[3.235449] (-) TimerEvent: {}
+[3.337687] (-) TimerEvent: {}
+[3.438401] (-) TimerEvent: {}
+[3.539741] (-) TimerEvent: {}
+[3.640589] (-) TimerEvent: {}
+[3.741393] (-) TimerEvent: {}
+[3.842893] (-) TimerEvent: {}
+[3.944836] (-) TimerEvent: {}
+[4.045850] (-) TimerEvent: {}
+[4.147595] (-) TimerEvent: {}
+[4.248629] (-) TimerEvent: {}
+[4.349726] (-) TimerEvent: {}
+[4.450962] (-) TimerEvent: {}
+[4.552285] (-) TimerEvent: {}
+[4.653484] (-) TimerEvent: {}
+[4.754734] (-) TimerEvent: {}
+[4.855549] (-) TimerEvent: {}
+[4.956895] (-) TimerEvent: {}
+[5.058938] (-) TimerEvent: {}
+[5.160857] (-) TimerEvent: {}
+[5.261831] (-) TimerEvent: {}
+[5.362955] (-) TimerEvent: {}
+[5.464078] (-) TimerEvent: {}
+[5.565552] (-) TimerEvent: {}
+[5.666474] (-) TimerEvent: {}
+[5.767091] (-) TimerEvent: {}
+[5.867693] (-) TimerEvent: {}
+[5.968473] (-) TimerEvent: {}
+[6.069266] (-) TimerEvent: {}
+[6.169849] (-) TimerEvent: {}
+[6.270883] (-) TimerEvent: {}
+[6.372349] (-) TimerEvent: {}
+[6.473159] (-) TimerEvent: {}
+[6.574619] (-) TimerEvent: {}
+[6.675878] (-) TimerEvent: {}
+[6.777458] (-) TimerEvent: {}
+[6.878626] (-) TimerEvent: {}
+[6.979619] (-) TimerEvent: {}
+[7.080783] (-) TimerEvent: {}
+[7.181850] (-) TimerEvent: {}
+[7.282477] (-) TimerEvent: {}
+[7.383602] (-) TimerEvent: {}
+[7.484825] (-) TimerEvent: {}
+[7.586749] (-) TimerEvent: {}
+[7.687683] (-) TimerEvent: {}
+[7.788554] (-) TimerEvent: {}
+[7.889497] (-) TimerEvent: {}
+[7.990448] (-) TimerEvent: {}
+[8.091233] (-) TimerEvent: {}
+[8.192689] (-) TimerEvent: {}
+[8.293643] (-) TimerEvent: {}
+[8.394660] (-) TimerEvent: {}
+[8.496380] (-) TimerEvent: {}
+[8.597470] (-) TimerEvent: {}
+[8.698306] (-) TimerEvent: {}
+[8.799516] (-) TimerEvent: {}
+[8.901647] (-) TimerEvent: {}
+[9.003761] (-) TimerEvent: {}
+[9.104822] (-) TimerEvent: {}
+[9.206719] (-) TimerEvent: {}
+[9.307698] (-) TimerEvent: {}
+[9.409503] (-) TimerEvent: {}
+[9.510903] (-) TimerEvent: {}
+[9.612443] (-) TimerEvent: {}
+[9.713670] (-) TimerEvent: {}
+[9.814683] (-) TimerEvent: {}
+[9.915782] (-) TimerEvent: {}
+[10.017597] (-) TimerEvent: {}
+[10.118828] (-) TimerEvent: {}
+[10.220292] (-) TimerEvent: {}
+[10.321691] (-) TimerEvent: {}
+[10.422844] (-) TimerEvent: {}
+[10.524372] (-) TimerEvent: {}
+[10.625859] (-) TimerEvent: {}
+[10.726906] (-) TimerEvent: {}
+[10.828806] (-) TimerEvent: {}
+[10.930839] (-) TimerEvent: {}
+[11.031766] (-) TimerEvent: {}
+[11.132838] (-) TimerEvent: {}
+[11.234537] (-) TimerEvent: {}
+[11.335694] (-) TimerEvent: {}
+[11.437410] (-) TimerEvent: {}
+[11.538432] (-) TimerEvent: {}
+[11.639452] (-) TimerEvent: {}
+[11.740121] (-) TimerEvent: {}
+[11.841592] (-) TimerEvent: {}
+[11.942460] (-) TimerEvent: {}
+[12.043536] (-) TimerEvent: {}
+[12.144563] (-) TimerEvent: {}
+[12.245627] (-) TimerEvent: {}
+[12.346552] (-) TimerEvent: {}
+[12.447741] (-) TimerEvent: {}
+[12.548818] (-) TimerEvent: {}
+[12.649845] (-) TimerEvent: {}
+[12.750823] (-) TimerEvent: {}
+[12.851883] (-) TimerEvent: {}
+[12.953574] (-) TimerEvent: {}
+[13.054765] (-) TimerEvent: {}
+[13.155918] (-) TimerEvent: {}
+[13.256871] (-) TimerEvent: {}
+[13.357904] (-) TimerEvent: {}
+[13.458546] (-) TimerEvent: {}
+[13.559633] (-) TimerEvent: {}
+[13.660435] (-) TimerEvent: {}
+[13.761105] (-) TimerEvent: {}
+[13.861902] (-) TimerEvent: {}
+[13.962539] (-) TimerEvent: {}
+[14.063402] (-) TimerEvent: {}
+[14.164787] (-) TimerEvent: {}
+[14.266751] (-) TimerEvent: {}
+[14.367528] (-) TimerEvent: {}
+[14.468828] (-) TimerEvent: {}
+[14.530088] (topic_demo_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subnode\x1b[0m\n'}
+[14.569211] (-) TimerEvent: {}
+[14.669997] (-) TimerEvent: {}
+[14.770610] (-) TimerEvent: {}
+[14.871432] (-) TimerEvent: {}
+[14.972106] (-) TimerEvent: {}
+[15.072820] (-) TimerEvent: {}
+[15.115505] (topic_demo_cpp) StdoutLine: {'line': b'[100%] Built target subnode\n'}
+[15.145977] (topic_demo_cpp) CommandEnded: {'returncode': 0}
+[15.147126] (topic_demo_cpp) JobProgress: {'identifier': 'topic_demo_cpp', 'progress': 'install'}
+[15.174143] (topic_demo_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dotamy/project-name/src/build/topic_demo_cpp'], 'cwd': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'env': OrderedDict({'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dotamy/project-name/src/install/my_msg/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/dotamy/project-name', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dotamy/project-name/src/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H6AF52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/dotamy/project-name/src/install/topic_demo_py:/home/dotamy/project-name/src/install/topic_demo_cpp:/home/dotamy/project-name/src/install/my_msg:/home/dotamy/project-name/src/install/cpp_node_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'SUDO_USER': 'dotamy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'PYTHONPATH': '/home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages:/home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dotamy/project-name/src/install/topic_demo_cpp:/home/dotamy/project-name/src/install/my_msg:/home/dotamy/project-name/src/install/cpp_node_demo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/dotamy/project-name/src/install/topic_demo_py:/opt/ros/jazzy'}), 'shell': False}
+[15.174910] (-) TimerEvent: {}
+[15.196690] (topic_demo_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.197438] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/pubnode\n'}
+[15.198727] (topic_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/subnode\n'}
+[15.215594] (topic_demo_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/subnode" to ""\n'}
+[15.215977] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/ament_index/resource_index/package_run_dependencies/topic_demo_cpp\n'}
+[15.216525] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/ament_index/resource_index/parent_prefix_path/topic_demo_cpp\n'}
+[15.216674] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/ament_prefix_path.sh\n'}
+[15.217383] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/ament_prefix_path.dsv\n'}
+[15.217531] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/path.sh\n'}
+[15.217662] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/path.dsv\n'}
+[15.218110] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.bash\n'}
+[15.218478] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.sh\n'}
+[15.218674] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.zsh\n'}
+[15.218796] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.dsv\n'}
+[15.218913] (topic_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.dsv\n'}
+[15.219034] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/ament_index/resource_index/packages/topic_demo_cpp\n'}
+[15.219168] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/cmake/topic_demo_cppConfig.cmake\n'}
+[15.219283] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/cmake/topic_demo_cppConfig-version.cmake\n'}
+[15.219397] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.xml\n'}
+[15.222970] (topic_demo_cpp) CommandEnded: {'returncode': 0}
+[15.260650] (topic_demo_cpp) JobEnded: {'identifier': 'topic_demo_cpp', 'rc': 0}
+[15.261760] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/pubnode.dir/src/publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subnode.dir/src/subscriber.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable pubnode[0m
+[ 75%] Built target pubnode

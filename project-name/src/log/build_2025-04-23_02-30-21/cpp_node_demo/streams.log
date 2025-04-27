@@ -1,0 +1,30 @@
+[0.072s] Invoking command in '/home/dotamy/project-name/src/build/cpp_node_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/cpp_node_demo -- -j8 -l8
+[0.256s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.279s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.403s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.452s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.801s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.807s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.129s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.388s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.985s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.987s] -- Configured cppcheck include dirs: 
+[2.988s] -- Configured cppcheck exclude dirs and/or files: 
+[3.028s] -- Added test 'lint_cmake' to check CMake code style
+[3.156s] -- Added test 'uncrustify' to check C / C++ code style
+[3.156s] -- Configured uncrustify additional arguments: 
+[3.170s] -- Added test 'xmllint' to check XML markup files
+[3.175s] -- Configuring done (2.9s)
+[3.255s] -- Generating done (0.0s)
+[3.276s] -- Build files have been written to: /home/dotamy/project-name/src/build/cpp_node_demo
+[3.649s] [ 50%] [32mBuilding CXX object CMakeFiles/cppnode.dir/src/cpp_node.cpp.o[0m
+[6.824s] [01m[K/home/dotamy/project-name/src/cpp_node_demo/src/cpp_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+[6.825s]     3 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[6.825s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.826s] compilation terminated.
+[6.839s] gmake[2]: *** [CMakeFiles/cppnode.dir/build.make:76：CMakeFiles/cppnode.dir/src/cpp_node.cpp.o] 错误 1
+[6.842s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/cppnode.dir/all] 错误 2
+[6.845s] gmake: *** [Makefile:146：all] 错误 2
+[6.864s] Invoked command in '/home/dotamy/project-name/src/build/cpp_node_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/cpp_node_demo -- -j8 -l8

@@ -1,0 +1,25 @@
+[0.039s] Invoking command in '/home/dotamy/project-name/src/build/topic_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8
+[0.197s] [ 50%] Built target subnode
+[0.218s] [100%] Built target pubnode
+[0.252s] Invoked command in '/home/dotamy/project-name/src/build/topic_demo_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8
+[0.283s] Invoking command in '/home/dotamy/project-name/src/build/topic_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dotamy/project-name/src/build/topic_demo_cpp
+[0.306s] -- Install configuration: ""
+[0.309s] -- Installing: /home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/pubnode
+[0.314s] -- Set non-toolchain portion of runtime path of "/home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/pubnode" to ""
+[0.319s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/subnode
+[0.319s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/ament_index/resource_index/package_run_dependencies/topic_demo_cpp
+[0.320s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/ament_index/resource_index/parent_prefix_path/topic_demo_cpp
+[0.320s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/ament_prefix_path.sh
+[0.322s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/ament_prefix_path.dsv
+[0.323s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/path.sh
+[0.323s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/path.dsv
+[0.324s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.bash
+[0.324s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.sh
+[0.325s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.zsh
+[0.325s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.dsv
+[0.326s] -- Installing: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.dsv
+[0.326s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/ament_index/resource_index/packages/topic_demo_cpp
+[0.327s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/cmake/topic_demo_cppConfig.cmake
+[0.329s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/cmake/topic_demo_cppConfig-version.cmake
+[0.332s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.xml
+[0.332s] Invoked command in '/home/dotamy/project-name/src/build/topic_demo_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dotamy/project-name/src/build/topic_demo_cpp

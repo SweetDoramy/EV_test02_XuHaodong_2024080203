@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.002509] (-) JobUnselected: {'identifier': 'cpp_node_demo'}
+[0.003288] (-) JobUnselected: {'identifier': 'py_node_demo'}
+[0.003625] (topic_demo_cpp) JobQueued: {'identifier': 'topic_demo_cpp', 'dependencies': OrderedDict()}
+[0.004013] (topic_demo_cpp) JobStarted: {'identifier': 'topic_demo_cpp'}
+[0.063140] (topic_demo_cpp) JobProgress: {'identifier': 'topic_demo_cpp', 'progress': 'cmake'}
+[0.066490] (topic_demo_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/dotamy/project-name/src/topic_demo_cpp', '-DCMAKE_INSTALL_PREFIX=/home/dotamy/project-name/src/install/topic_demo_cpp'], 'cwd': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'env': OrderedDict({'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/dotamy/project-name/src/topic_demo_cpp', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dotamy/project-name/src/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WDYI52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/dotamy/project-name/src/install/cpp_node_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'SUDO_USER': 'dotamy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dotamy/project-name/src/install/cpp_node_demo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.098130] (-) TimerEvent: {}
+[0.160297] (topic_demo_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199335] (-) TimerEvent: {}
+[0.301207] (-) TimerEvent: {}
+[0.403174] (-) TimerEvent: {}
+[0.505068] (-) TimerEvent: {}
+[0.607217] (-) TimerEvent: {}
+[0.709107] (-) TimerEvent: {}
+[0.811170] (-) TimerEvent: {}
+[0.915042] (-) TimerEvent: {}
+[1.017022] (-) TimerEvent: {}
+[1.118538] (-) TimerEvent: {}
+[1.221095] (-) TimerEvent: {}
+[1.324988] (-) TimerEvent: {}
+[1.347963] (topic_demo_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.426184] (-) TimerEvent: {}
+[1.484448] (topic_demo_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.527402] (-) TimerEvent: {}
+[1.541668] (topic_demo_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.600348] (topic_demo_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.628449] (-) TimerEvent: {}
+[1.667431] (topic_demo_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.729237] (-) TimerEvent: {}
+[1.831295] (-) TimerEvent: {}
+[1.901012] (topic_demo_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.908241] (topic_demo_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.932224] (-) TimerEvent: {}
+[2.034246] (-) TimerEvent: {}
+[2.136312] (-) TimerEvent: {}
+[2.237965] (-) TimerEvent: {}
+[2.243879] (topic_demo_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.339611] (-) TimerEvent: {}
+[2.442325] (-) TimerEvent: {}
+[2.459899] (topic_demo_cpp) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.508797] (topic_demo_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.543882] (-) TimerEvent: {}
+[2.645255] (-) TimerEvent: {}
+[2.747273] (-) TimerEvent: {}
+[2.849922] (-) TimerEvent: {}
+[2.952070] (-) TimerEvent: {}
+[2.973966] (topic_demo_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.974646] (topic_demo_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.975425] (topic_demo_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.979489] (topic_demo_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.990090] (topic_demo_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.990662] (topic_demo_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.992956] (topic_demo_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.996953] (topic_demo_cpp) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[3.033314] (topic_demo_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (add_executable):\n'}
+[3.034267] (topic_demo_cpp) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.034754] (topic_demo_cpp) StderrLine: {'line': b'\n'}
+[3.035479] (topic_demo_cpp) StderrLine: {'line': b'    src/publisher.cpp\n'}
+[3.036207] (topic_demo_cpp) StderrLine: {'line': b'\n'}
+[3.036665] (topic_demo_cpp) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[3.037431] (topic_demo_cpp) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[3.038207] (topic_demo_cpp) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[3.038668] (topic_demo_cpp) StderrLine: {'line': b'\n'}
+[3.039410] (topic_demo_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[3.046936] (topic_demo_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (add_executable):\n'}
+[3.047506] (topic_demo_cpp) StderrLine: {'line': b'  No SOURCES given to target: pubnode\n'}
+[3.048298] (topic_demo_cpp) StderrLine: {'line': b'\n'}
+[3.048995] (topic_demo_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[3.049467] (topic_demo_cpp) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[3.053268] (-) TimerEvent: {}
+[3.095910] (topic_demo_cpp) CommandEnded: {'returncode': 1}
+[3.155785] (-) TimerEvent: {}
+[3.219419] (topic_demo_cpp) JobEnded: {'identifier': 'topic_demo_cpp', 'rc': 1}
+[3.233834] (-) EventReactorShutdown: {}

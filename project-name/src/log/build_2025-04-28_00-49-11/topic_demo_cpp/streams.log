@@ -1,0 +1,29 @@
+[0.039s] Invoking command in '/home/dotamy/project-name/src/build/topic_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dotamy/project-name/src/install/topic_demo_py:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8
+[0.210s] [ 50%] [32mBuilding CXX object CMakeFiles/pubnode.dir/src/publisher.cpp.o[0m
+[0.210s] [ 50%] [32mBuilding CXX object CMakeFiles/subnode.dir/src/subscriber.cpp.o[0m
+[7.063s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.064s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[7.065s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[7.065s]                  from [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:2[m[K:
+[7.066s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:[m[K In lambda function:
+[7.067s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:22:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[7.067s]    22 |             RCLCPP_INFO(this->get_logger(), [01;31m[Kmsg[m[K);  // ROS2日志输出
+[7.068s]       |                                             [01;31m[K^~~[m[K
+[7.068s]       |                                             [01;31m[K|[m[K
+[7.068s]       |                                             [01;31m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K
+[7.069s] In file included from [01m[K/opt/ros/jazzy/include/rmw/rmw/types.h:28[m[K,
+[7.070s]                  from [01m[K/opt/ros/jazzy/include/rcl/rcl/types.h:20[m[K,
+[7.070s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:23[m[K,
+[7.070s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp:18[m[K,
+[7.071s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:25[m[K,
+[7.071s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:25[m[K:
+[7.072s] [01m[K/opt/ros/jazzy/include/rcutils/rcutils/logging.h:473:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid[01;32m[K rcutils_log_internal[m[K(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[7.072s]   473 |   [01;36m[Kconst char * format[m[K,
+[7.073s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[10.269s] gmake[2]: *** [CMakeFiles/pubnode.dir/build.make:76：CMakeFiles/pubnode.dir/src/publisher.cpp.o] 错误 1
+[10.270s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/pubnode.dir/all] 错误 2
+[10.270s] gmake[1]: *** 正在等待未完成的任务....
+[17.706s] [ 75%] [32m[1mLinking CXX executable subnode[0m
+[18.304s] [ 75%] Built target subnode
+[18.308s] gmake: *** [Makefile:146：all] 错误 2
+[18.315s] Invoked command in '/home/dotamy/project-name/src/build/topic_demo_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dotamy/project-name/src/install/topic_demo_py:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8

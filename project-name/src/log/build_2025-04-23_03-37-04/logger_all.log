@@ -1,0 +1,232 @@
+[0.697s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.697s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcdb5f64a40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcdb60fb650>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcdb60fb650>>)
+[0.961s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.961s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.961s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.963s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.963s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dotamy/project-name/src'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.964s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.965s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.966s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_node_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_node_demo) by extension 'ignore'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_node_demo) by extension 'ignore_ament_install'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_node_demo) by extensions ['colcon_pkg']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_node_demo) by extension 'colcon_pkg'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_node_demo) by extensions ['colcon_meta']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_node_demo) by extension 'colcon_meta'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_node_demo) by extensions ['ros']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_node_demo) by extension 'ros'
+[1.082s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_node_demo' with type 'ros.ament_cmake' and name 'cpp_node_demo'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.083s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.084s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.085s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(py_node_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(py_node_demo) by extension 'ignore'
+[1.086s] Level 1:colcon.colcon_core.package_identification:_identify(py_node_demo) by extension 'ignore_ament_install'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(py_node_demo) by extensions ['colcon_pkg']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(py_node_demo) by extension 'colcon_pkg'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(py_node_demo) by extensions ['colcon_meta']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(py_node_demo) by extension 'colcon_meta'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(py_node_demo) by extensions ['ros']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(py_node_demo) by extension 'ros'
+[1.090s] DEBUG:colcon.colcon_core.package_identification:Package 'py_node_demo' with type 'ros.ament_python' and name 'py_node_demo'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_cpp) by extension 'ignore'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_cpp) by extension 'ignore_ament_install'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_cpp) by extensions ['colcon_pkg']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_cpp) by extension 'colcon_pkg'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_cpp) by extensions ['colcon_meta']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_cpp) by extension 'colcon_meta'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_cpp) by extensions ['ros']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_cpp) by extension 'ros'
+[1.095s] DEBUG:colcon.colcon_core.package_identification:Package 'topic_demo_cpp' with type 'ros.ament_cmake' and name 'topic_demo_cpp'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_py) by extensions ['ignore', 'ignore_ament_install']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_py) by extension 'ignore'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_py) by extension 'ignore_ament_install'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_py) by extensions ['colcon_pkg']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_py) by extension 'colcon_pkg'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_py) by extensions ['colcon_meta']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_py) by extension 'colcon_meta'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_py) by extensions ['ros']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(topic_demo_py) by extension 'ros'
+[1.101s] DEBUG:colcon.colcon_core.package_identification:Package 'topic_demo_py' with type 'ros.ament_python' and name 'topic_demo_py'
+[1.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.205s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/dotamy/project-name/src/install
+[1.218s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[1.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.463s] Level 5:colcon.colcon_core.verb:set package 'cpp_node_demo' build argument 'cmake_args' from command line to 'None'
+[1.463s] Level 5:colcon.colcon_core.verb:set package 'cpp_node_demo' build argument 'cmake_target' from command line to 'None'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'cpp_node_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'cpp_node_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'cpp_node_demo' build argument 'cmake_clean_first' from command line to 'False'
+[1.464s] Level 5:colcon.colcon_core.verb:set package 'cpp_node_demo' build argument 'cmake_force_configure' from command line to 'False'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'cpp_node_demo' build argument 'ament_cmake_args' from command line to 'None'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'cpp_node_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.465s] Level 5:colcon.colcon_core.verb:set package 'cpp_node_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.465s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_node_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dotamy/project-name/src/build/cpp_node_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dotamy/project-name/src/install/cpp_node_demo', 'merge_install': False, 'path': '/home/dotamy/project-name/src/cpp_node_demo', 'symlink_install': False, 'test_result_base': None}
+[1.466s] Level 5:colcon.colcon_core.verb:set package 'py_node_demo' build argument 'cmake_args' from command line to 'None'
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'py_node_demo' build argument 'cmake_target' from command line to 'None'
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'py_node_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'py_node_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.467s] Level 5:colcon.colcon_core.verb:set package 'py_node_demo' build argument 'cmake_clean_first' from command line to 'False'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'py_node_demo' build argument 'cmake_force_configure' from command line to 'False'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'py_node_demo' build argument 'ament_cmake_args' from command line to 'None'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'py_node_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.468s] Level 5:colcon.colcon_core.verb:set package 'py_node_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.468s] DEBUG:colcon.colcon_core.verb:Building package 'py_node_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dotamy/project-name/src/build/py_node_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dotamy/project-name/src/install/py_node_demo', 'merge_install': False, 'path': '/home/dotamy/project-name/src/py_node_demo', 'symlink_install': False, 'test_result_base': None}
+[1.469s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_cpp' build argument 'cmake_args' from command line to 'None'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_cpp' build argument 'cmake_target' from command line to 'None'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.470s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.471s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.471s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.471s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.471s] DEBUG:colcon.colcon_core.verb:Building package 'topic_demo_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dotamy/project-name/src/install/topic_demo_cpp', 'merge_install': False, 'path': '/home/dotamy/project-name/src/topic_demo_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'cmake_args' from command line to 'None'
+[1.472s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'cmake_target' from command line to 'None'
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.473s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.474s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.474s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.474s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.474s] DEBUG:colcon.colcon_core.verb:Building package 'topic_demo_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dotamy/project-name/src/build/topic_demo_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dotamy/project-name/src/install/topic_demo_py', 'merge_install': False, 'path': '/home/dotamy/project-name/src/topic_demo_py', 'symlink_install': False, 'test_result_base': None}
+[1.475s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.481s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.482s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dotamy/project-name/src/cpp_node_demo' with build type 'ament_cmake'
+[1.482s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dotamy/project-name/src/cpp_node_demo'
+[1.496s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.522s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dotamy/project-name/src/py_node_demo' with build type 'ament_python'
+[1.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_node_demo', 'ament_prefix_path')
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dotamy/project-name/src/install/py_node_demo/share/py_node_demo/hook/ament_prefix_path.ps1'
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dotamy/project-name/src/install/py_node_demo/share/py_node_demo/hook/ament_prefix_path.dsv'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dotamy/project-name/src/install/py_node_demo/share/py_node_demo/hook/ament_prefix_path.sh'
+[1.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.555s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dotamy/project-name/src/topic_demo_cpp' with build type 'ament_cmake'
+[1.558s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dotamy/project-name/src/topic_demo_cpp'
+[1.558s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.558s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.585s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dotamy/project-name/src/topic_demo_py' with build type 'ament_python'
+[1.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_demo_py', 'ament_prefix_path')
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dotamy/project-name/src/install/topic_demo_py/share/topic_demo_py/hook/ament_prefix_path.ps1'
+[1.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dotamy/project-name/src/install/topic_demo_py/share/topic_demo_py/hook/ament_prefix_path.dsv'
+[1.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dotamy/project-name/src/install/topic_demo_py/share/topic_demo_py/hook/ament_prefix_path.sh'
+[1.594s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.594s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dotamy/project-name/src/build/cpp_node_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/cpp_node_demo -- -j8 -l8
+[2.582s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dotamy/project-name/src/py_node_demo'
+[2.582s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.583s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dotamy/project-name/src/build/topic_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8
+[3.507s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dotamy/project-name/src/topic_demo_py'
+[3.508s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.508s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dotamy/project-name/src/build/topic_demo_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8
+[3.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dotamy/project-name/src/build/topic_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dotamy/project-name/src/build/topic_demo_cpp
+[3.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_demo_cpp)
+[3.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dotamy/project-name/src/build/topic_demo_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dotamy/project-name/src/build/topic_demo_cpp
+[3.744s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp' for CMake module files
+[3.747s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp' for CMake config files
+[3.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_demo_cpp', 'cmake_prefix_path')
+[3.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/hook/cmake_prefix_path.ps1'
+[3.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/hook/cmake_prefix_path.dsv'
+[3.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/hook/cmake_prefix_path.sh'
+[3.756s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp/lib'
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp/bin'
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp/lib/pkgconfig/topic_demo_cpp.pc'
+[3.758s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp/lib/python3.12/site-packages'
+[3.758s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp/bin'
+[3.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.ps1'
+[3.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.dsv'
+[3.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.sh'
+[3.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.bash'
+[3.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.zsh'
+[3.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dotamy/project-name/src/install/topic_demo_cpp/share/colcon-core/packages/topic_demo_cpp)
+[3.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_demo_cpp)
+[3.774s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp' for CMake module files
+[3.777s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp' for CMake config files
+[3.778s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_demo_cpp', 'cmake_prefix_path')
+[3.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/hook/cmake_prefix_path.ps1'
+[3.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/hook/cmake_prefix_path.dsv'
+[3.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/hook/cmake_prefix_path.sh'
+[3.785s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp/lib'
+[3.786s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp/bin'
+[3.786s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp/lib/pkgconfig/topic_demo_cpp.pc'
+[3.787s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp/lib/python3.12/site-packages'
+[3.787s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/topic_demo_cpp/bin'
+[3.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.ps1'
+[3.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.dsv'
+[3.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.sh'
+[3.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.bash'
+[3.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.zsh'
+[3.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dotamy/project-name/src/install/topic_demo_cpp/share/colcon-core/packages/topic_demo_cpp)
+[4.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dotamy/project-name/src/build/cpp_node_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/cpp_node_demo -- -j8 -l8
+[4.058s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_node_demo)
+[4.058s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/cpp_node_demo' for CMake module files
+[4.062s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/cpp_node_demo' for CMake config files
+[4.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_node_demo', 'cmake_prefix_path')
+[4.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/hook/cmake_prefix_path.ps1'
+[4.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/hook/cmake_prefix_path.dsv'
+[4.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/hook/cmake_prefix_path.sh'
+[4.073s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/cpp_node_demo/lib'
+[4.073s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/cpp_node_demo/bin'
+[4.074s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/cpp_node_demo/lib/pkgconfig/cpp_node_demo.pc'
+[4.074s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/cpp_node_demo/lib/python3.12/site-packages'
+[4.075s] Level 1:colcon.colcon_core.environment:checking '/home/dotamy/project-name/src/install/cpp_node_demo/bin'
+[4.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/package.ps1'
+[4.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/package.dsv'
+[4.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/package.sh'
+[4.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/package.bash'
+[4.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/package.zsh'
+[4.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dotamy/project-name/src/install/cpp_node_demo/share/colcon-core/packages/cpp_node_demo)
+[7.642s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.643s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[7.644s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.676s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.689s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[7.693s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.699s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dotamy/project-name/src/install/local_setup.ps1'
+[7.706s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dotamy/project-name/src/install/_local_setup_util_ps1.py'
+[7.710s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dotamy/project-name/src/install/setup.ps1'
+[7.715s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dotamy/project-name/src/install/local_setup.sh'
+[7.717s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dotamy/project-name/src/install/_local_setup_util_sh.py'
+[7.720s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dotamy/project-name/src/install/setup.sh'
+[7.728s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dotamy/project-name/src/install/local_setup.bash'
+[7.730s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dotamy/project-name/src/install/setup.bash'
+[7.735s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dotamy/project-name/src/install/local_setup.zsh'
+[7.737s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dotamy/project-name/src/install/setup.zsh'

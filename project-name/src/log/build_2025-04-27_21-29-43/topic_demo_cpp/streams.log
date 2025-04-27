@@ -1,0 +1,25 @@
+[1.011s] Invoking command in '/home/dotamy/project-name/src/build/topic_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8
+[1.507s] [ 50%] Built target subnode
+[1.574s] [ 75%] [32mBuilding CXX object CMakeFiles/pubnode.dir/src/publisher.cpp.o[0m
+[12.377s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[12.381s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[12.384s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[12.387s]                  from [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:2[m[K:
+[12.392s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:[m[K In lambda function:
+[12.396s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:26:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ to ‘[01m[Kconst char*[m[K’
+[12.399s]    26 |             RCLCPP_INFO(this->get_logger(), [01;31m[Kmsg[m[K);  // ROS2日志输出
+[12.403s]       |                                             [01;31m[K^~~[m[K
+[12.406s]       |                                             [01;31m[K|[m[K
+[12.407s]       |                                             [01;31m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K
+[12.407s] In file included from [01m[K/opt/ros/jazzy/include/rmw/rmw/types.h:28[m[K,
+[12.408s]                  from [01m[K/opt/ros/jazzy/include/rcl/rcl/types.h:20[m[K,
+[12.409s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:23[m[K,
+[12.410s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp:18[m[K,
+[12.411s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:25[m[K,
+[12.411s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:25[m[K:
+[12.412s] [01m[K/opt/ros/jazzy/include/rcutils/rcutils/logging.h:473:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid[01;32m[K rcutils_log_internal[m[K(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[12.413s]   473 |   [01;36m[Kconst char * format[m[K,
+[12.413s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[16.155s] gmake[2]: *** [CMakeFiles/pubnode.dir/build.make:76：CMakeFiles/pubnode.dir/src/publisher.cpp.o] 错误 1
+[16.161s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/pubnode.dir/all] 错误 2
+[16.171s] gmake: *** [Makefile:146：all] 错误 2

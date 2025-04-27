@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.000454] (-) JobUnselected: {'identifier': 'cpp_node_demo'}
+[0.000557] (-) JobUnselected: {'identifier': 'py_node_demo'}
+[0.000644] (-) JobUnselected: {'identifier': 'topic_demo_cpp'}
+[0.000727] (-) JobUnselected: {'identifier': 'topic_demo_py'}
+[0.000882] (my_msg) JobQueued: {'identifier': 'my_msg', 'dependencies': OrderedDict()}
+[0.000973] (my_msg) JobStarted: {'identifier': 'my_msg'}
+[0.024902] (my_msg) JobProgress: {'identifier': 'my_msg', 'progress': 'cmake'}
+[0.028724] (my_msg) JobProgress: {'identifier': 'my_msg', 'progress': 'build'}
+[0.028851] (my_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dotamy/project-name/src/build/my_msg', '--', '-j8', '-l8'], 'cwd': '/home/dotamy/project-name/src/build/my_msg', 'env': OrderedDict({'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/dotamy/project-name', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H6AF52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'SUDO_USER': 'dotamy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dotamy/project-name/src/build/my_msg', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.098915] (-) TimerEvent: {}
+[0.193182] (my_msg) StdoutLine: {'line': b'[  2%] Built target my_msg__rosidl_generator_type_description\n'}
+[0.199389] (-) TimerEvent: {}
+[0.220133] (my_msg) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_my_msg\n'}
+[0.253440] (my_msg) StdoutLine: {'line': b'[ 20%] Built target my_msg__rosidl_generator_c\n'}
+[0.253736] (my_msg) StdoutLine: {'line': b'[ 20%] Built target my_msg__cpp\n'}
+[0.299763] (-) TimerEvent: {}
+[0.318548] (my_msg) StdoutLine: {'line': b'[ 29%] Built target my_msg__rosidl_typesupport_cpp\n'}
+[0.318887] (my_msg) StdoutLine: {'line': b'[ 41%] Built target my_msg__rosidl_typesupport_introspection_cpp\n'}
+[0.319077] (my_msg) StdoutLine: {'line': b'[ 47%] Built target my_msg__rosidl_typesupport_fastrtps_c\n'}
+[0.321285] (my_msg) StdoutLine: {'line': b'[ 55%] Built target my_msg__rosidl_typesupport_introspection_c\n'}
+[0.322082] (my_msg) StdoutLine: {'line': b'[ 64%] Built target my_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.331798] (my_msg) StdoutLine: {'line': b'[ 73%] Built target my_msg__rosidl_typesupport_c\n'}
+[0.392475] (my_msg) StdoutLine: {'line': b'[ 73%] Built target my_msg\n'}
+[0.400330] (-) TimerEvent: {}
+[0.459044] (my_msg) StdoutLine: {'line': b'[ 76%] Built target my_msg__py\n'}
+[0.501220] (-) TimerEvent: {}
+[0.527406] (my_msg) StdoutLine: {'line': b'[ 82%] Built target my_msg__rosidl_generator_py\n'}
+[0.590775] (my_msg) StdoutLine: {'line': b'[ 88%] Built target my_msg_s__rosidl_typesupport_fastrtps_c\n'}
+[0.591050] (my_msg) StdoutLine: {'line': b'[ 94%] Built target my_msg_s__rosidl_typesupport_introspection_c\n'}
+[0.591389] (my_msg) StdoutLine: {'line': b'[100%] Built target my_msg_s__rosidl_typesupport_c\n'}
+[0.601345] (-) TimerEvent: {}
+[0.669702] (my_msg) StdoutLine: {'line': b'running egg_info\n'}
+[0.702496] (-) TimerEvent: {}
+[0.709065] (my_msg) StdoutLine: {'line': b'writing my_msg.egg-info/PKG-INFO\n'}
+[0.709849] (my_msg) StdoutLine: {'line': b'writing dependency_links to my_msg.egg-info/dependency_links.txt\n'}
+[0.710606] (my_msg) StdoutLine: {'line': b'writing top-level names to my_msg.egg-info/top_level.txt\n'}
+[0.803612] (-) TimerEvent: {}
+[0.829780] (my_msg) StdoutLine: {'line': b"reading manifest file 'my_msg.egg-info/SOURCES.txt'\n"}
+[0.831678] (my_msg) StdoutLine: {'line': b"writing manifest file 'my_msg.egg-info/SOURCES.txt'\n"}
+[0.904392] (-) TimerEvent: {}
+[0.907329] (my_msg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_my_msg_egg\n'}
+[0.942240] (my_msg) CommandEnded: {'returncode': 0}
+[0.943753] (my_msg) JobProgress: {'identifier': 'my_msg', 'progress': 'install'}
+[0.967304] (my_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dotamy/project-name/src/build/my_msg'], 'cwd': '/home/dotamy/project-name/src/build/my_msg', 'env': OrderedDict({'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/dotamy/project-name', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H6AF52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'SUDO_USER': 'dotamy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dotamy/project-name/src/build/my_msg', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.988858] (my_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.990013] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/ament_index/resource_index/rosidl_interfaces/my_msg\n'}
+[0.990560] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/msg/A.json\n'}
+[0.990701] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg\n'}
+[0.990815] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg\n'}
+[0.990925] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/a.h\n'}
+[0.991034] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail\n'}
+[0.991548] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__struct.h\n'}
+[0.991684] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__functions.h\n'}
+[0.991801] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__functions.c\n'}
+[0.991907] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__description.c\n'}
+[0.992035] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__type_support.h\n'}
+[0.992493] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__type_support.c\n'}
+[0.992614] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.992723] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/environment/library_path.sh\n'}
+[0.993003] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/environment/library_path.dsv\n'}
+[0.993193] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/libmy_msg__rosidl_generator_c.so\n'}
+[0.993578] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg\n'}
+[0.993766] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg\n'}
+[0.994185] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.994559] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail\n'}
+[0.994687] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__rosidl_typesupport_fastrtps_c.h\n'}
+[0.994871] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/libmy_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[0.995004] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg\n'}
+[0.995155] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg\n'}
+[0.995522] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.995770] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail\n'}
+[0.995963] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__rosidl_typesupport_introspection_c.h\n'}
+[0.996083] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__type_support.c\n'}
+[0.996469] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/libmy_msg__rosidl_typesupport_introspection_c.so\n'}
+[0.996708] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/libmy_msg__rosidl_typesupport_c.so\n'}
+[0.996882] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg\n'}
+[0.997089] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg\n'}
+[0.997250] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/a.hpp\n'}
+[0.997746] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail\n'}
+[0.997889] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__builder.hpp\n'}
+[0.998009] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__type_support.hpp\n'}
+[0.998326] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__traits.hpp\n'}
+[0.998616] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__struct.hpp\n'}
+[0.998809] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.999233] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg\n'}
+[0.999407] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg\n'}
+[0.999624] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.999737] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail\n'}
+[0.999862] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/dds_fastrtps\n'}
+[0.999969] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.000080] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/libmy_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.000426] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg\n'}
+[1.000662] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg\n'}
+[1.000896] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail\n'}
+[1.001263] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.001488] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/include/my_msg/my_msg/msg/detail/a__type_support.cpp\n'}
+[1.001603] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/libmy_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[1.001711] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/libmy_msg__rosidl_typesupport_cpp.so\n'}
+[1.001819] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/environment/pythonpath.sh\n'}
+[1.001981] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/environment/pythonpath.dsv\n'}
+[1.002271] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg-0.0.0-py3.12.egg-info\n'}
+[1.002418] (my_msg) StdoutLine: {'line': b'-- Installing: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[1.002529] (my_msg) StdoutLine: {'line': b'-- Installing: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[1.002865] (my_msg) StdoutLine: {'line': b'-- Installing: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[1.002995] (my_msg) StdoutLine: {'line': b'-- Installing: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[1.003516] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg\n'}
+[1.003666] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/_my_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.003782] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/my_msg_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.004005] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/__init__.py\n'}
+[1.004119] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/_my_msg_s.ep.rosidl_typesupport_c.c\n'}
+[1.004227] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/my_msg_s__rosidl_typesupport_introspection_c.so\n'}
+[1.004552] (-) TimerEvent: {}
+[1.004862] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/my_msg_s__rosidl_typesupport_c.so\n'}
+[1.005038] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/_my_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.005164] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/msg\n'}
+[1.005271] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/msg/__init__.py\n'}
+[1.005421] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/msg/_a_s.c\n'}
+[1.005706] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/msg/_a.py\n'}
+[1.074339] (my_msg) StdoutLine: {'line': b"Listing '/home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg'...\n"}
+[1.074761] (my_msg) StdoutLine: {'line': b"Listing '/home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/msg'...\n"}
+[1.085362] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/my_msg_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.087958] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/my_msg_s__rosidl_typesupport_introspection_c.so\n'}
+[1.090423] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/python3.12/site-packages/my_msg/my_msg_s__rosidl_typesupport_c.so\n'}
+[1.092843] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/lib/libmy_msg__rosidl_generator_py.so\n'}
+[1.094577] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/msg/A.idl\n'}
+[1.095168] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/msg/A.msg\n'}
+[1.095537] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/ament_index/resource_index/package_run_dependencies/my_msg\n'}
+[1.095832] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/ament_index/resource_index/parent_prefix_path/my_msg\n'}
+[1.096173] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/environment/ament_prefix_path.sh\n'}
+[1.096347] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/environment/ament_prefix_path.dsv\n'}
+[1.096840] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/environment/path.sh\n'}
+[1.096973] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/environment/path.dsv\n'}
+[1.097338] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/local_setup.bash\n'}
+[1.098531] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/local_setup.sh\n'}
+[1.098710] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/local_setup.zsh\n'}
+[1.098827] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/local_setup.dsv\n'}
+[1.098937] (my_msg) StdoutLine: {'line': b'-- Installing: /home/dotamy/project-name/src/install/my_msg/share/my_msg/package.dsv\n'}
+[1.100037] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/ament_index/resource_index/packages/my_msg\n'}
+[1.100545] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/export_my_msg__rosidl_generator_cExport.cmake\n'}
+[1.107402] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/export_my_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.107622] (-) TimerEvent: {}
+[1.107813] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/export_my_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.108400] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/export_my_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.108535] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/my_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.108651] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/my_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.108907] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/my_msg__rosidl_typesupport_cExport.cmake\n'}
+[1.109026] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/my_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.109134] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/export_my_msg__rosidl_generator_cppExport.cmake\n'}
+[1.109412] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/export_my_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.109582] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/export_my_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.109692] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/my_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.112754] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/my_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.112893] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/my_msg__rosidl_typesupport_cppExport.cmake\n'}
+[1.113020] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/my_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.113141] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/export_my_msg__rosidl_generator_pyExport.cmake\n'}
+[1.113462] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/export_my_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.113636] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[1.115294] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.115489] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.115616] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.115736] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.115853] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.115969] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.116085] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/my_msgConfig.cmake\n'}
+[1.116281] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/cmake/my_msgConfig-version.cmake\n'}
+[1.116608] (my_msg) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/my_msg/share/my_msg/package.xml\n'}
+[1.131324] (my_msg) CommandEnded: {'returncode': 0}
+[1.187375] (my_msg) JobEnded: {'identifier': 'my_msg', 'rc': 0}
+[1.189849] (-) EventReactorShutdown: {}

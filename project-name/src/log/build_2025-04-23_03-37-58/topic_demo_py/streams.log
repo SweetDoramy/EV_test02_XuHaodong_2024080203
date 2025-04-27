@@ -1,0 +1,20 @@
+[4.204s] Invoking command in '/home/dotamy/project-name/src/topic_demo_py': PYTHONPATH=/home/dotamy/project-name/src/build/topic_demo_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/topic_demo_py build --build-base /home/dotamy/project-name/src/build/topic_demo_py/build install --record /home/dotamy/project-name/src/build/topic_demo_py/install.log --single-version-externally-managed install_data
+[5.529s] running egg_info
+[5.638s] writing ../build/topic_demo_py/topic_demo_py.egg-info/PKG-INFO
+[5.640s] writing dependency_links to ../build/topic_demo_py/topic_demo_py.egg-info/dependency_links.txt
+[5.641s] writing requirements to ../build/topic_demo_py/topic_demo_py.egg-info/requires.txt
+[5.643s] writing top-level names to ../build/topic_demo_py/topic_demo_py.egg-info/top_level.txt
+[5.830s] reading manifest file '../build/topic_demo_py/topic_demo_py.egg-info/SOURCES.txt'
+[5.833s] adding license file 'LICENSE'
+[5.835s] writing manifest file '../build/topic_demo_py/topic_demo_py.egg-info/SOURCES.txt'
+[5.837s] running build
+[5.838s] running build_py
+[5.839s] running install
+[5.850s] running install_lib
+[5.975s] running install_data
+[5.976s] running install_egg_info
+[6.090s] removing '/home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py-0.0.0-py3.12.egg-info' (and everything under it)
+[6.093s] Copying ../build/topic_demo_py/topic_demo_py.egg-info to /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py-0.0.0-py3.12.egg-info
+[6.106s] running install_scripts
+[7.011s] writing list of installed files to '/home/dotamy/project-name/src/build/topic_demo_py/install.log'
+[7.126s] Invoked command in '/home/dotamy/project-name/src/topic_demo_py' returned '0': PYTHONPATH=/home/dotamy/project-name/src/build/topic_demo_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/topic_demo_py build --build-base /home/dotamy/project-name/src/build/topic_demo_py/build install --record /home/dotamy/project-name/src/build/topic_demo_py/install.log --single-version-externally-managed install_data

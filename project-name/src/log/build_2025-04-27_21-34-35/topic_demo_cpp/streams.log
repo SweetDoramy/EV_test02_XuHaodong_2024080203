@@ -1,0 +1,38 @@
+[1.059s] Invoking command in '/home/dotamy/project-name/src/build/topic_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8
+[1.274s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.489s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.662s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.726s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.772s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.068s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.075s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.491s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.762s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.812s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.345s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.346s] -- Configured cppcheck include dirs: 
+[4.346s] -- Configured cppcheck exclude dirs and/or files: 
+[4.377s] -- Added test 'lint_cmake' to check CMake code style
+[4.410s] -- Added test 'uncrustify' to check C / C++ code style
+[4.416s] -- Configured uncrustify additional arguments: 
+[4.421s] -- Added test 'xmllint' to check XML markup files
+[4.433s] -- Configuring done (3.2s)
+[4.518s] -- Generating done (0.1s)
+[4.541s] -- Build files have been written to: /home/dotamy/project-name/src/build/topic_demo_cpp
+[5.120s] [ 25%] [32mBuilding CXX object CMakeFiles/subnode.dir/src/subscriber.cpp.o[0m
+[5.131s] [ 50%] [32mBuilding CXX object CMakeFiles/pubnode.dir/src/publisher.cpp.o[0m
+[5.485s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: 没有那个文件或目录
+[5.490s]     2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[5.491s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.492s] compilation terminated.
+[5.496s] gmake[2]: *** [CMakeFiles/pubnode.dir/build.make:76：CMakeFiles/pubnode.dir/src/publisher.cpp.o] 错误 1
+[5.501s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/pubnode.dir/all] 错误 2
+[5.502s] gmake[1]: *** 正在等待未完成的任务....
+[5.612s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/subscriber.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: 没有那个文件或目录
+[5.620s]     2 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[5.625s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.626s] compilation terminated.
+[5.628s] gmake[2]: *** [CMakeFiles/subnode.dir/build.make:76：CMakeFiles/subnode.dir/src/subscriber.cpp.o] 错误 1
+[5.628s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/subnode.dir/all] 错误 2
+[5.629s] gmake: *** [Makefile:146：all] 错误 2

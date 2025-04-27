@@ -1,0 +1,11 @@
+[0.065s] Invoking command in '/home/dotamy/project-name/src/build/topic_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8
+[0.507s] [ 50%] Built target pubnode
+[0.598s] [ 75%] [32mBuilding CXX object CMakeFiles/subnode.dir/src/subscriber.cpp.o[0m
+[10.493s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/subscriber.cpp:[m[K In lambda function:
+[10.494s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/subscriber.cpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+[10.494s]    18 |                 [01;31m[Kpublisher[m[K->publish(msg);
+[10.495s]       |                 [01;31m[K^~~~~~~~~[m[K
+[16.785s] gmake[2]: *** [CMakeFiles/subnode.dir/build.make:76：CMakeFiles/subnode.dir/src/subscriber.cpp.o] 错误 1
+[16.787s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/subnode.dir/all] 错误 2
+[16.789s] gmake: *** [Makefile:146：all] 错误 2
+[16.809s] Invoked command in '/home/dotamy/project-name/src/build/topic_demo_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8

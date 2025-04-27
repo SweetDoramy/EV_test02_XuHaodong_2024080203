@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.004729] (-) JobUnselected: {'identifier': 'cpp_node_demo'}
+[0.004991] (-) JobUnselected: {'identifier': 'py_node_demo'}
+[0.005252] (-) JobUnselected: {'identifier': 'topic_demo_cpp'}
+[0.005756] (topic_demo_py) JobQueued: {'identifier': 'topic_demo_py', 'dependencies': OrderedDict()}
+[0.006031] (topic_demo_py) JobStarted: {'identifier': 'topic_demo_py'}
+[0.100833] (-) TimerEvent: {}
+[0.202693] (-) TimerEvent: {}
+[0.304747] (-) TimerEvent: {}
+[0.407716] (-) TimerEvent: {}
+[0.509644] (-) TimerEvent: {}
+[0.612877] (-) TimerEvent: {}
+[0.722063] (-) TimerEvent: {}
+[0.827280] (-) TimerEvent: {}
+[0.932159] (-) TimerEvent: {}
+[1.037343] (-) TimerEvent: {}
+[1.138800] (-) TimerEvent: {}
+[1.240701] (-) TimerEvent: {}
+[1.342644] (-) TimerEvent: {}
+[1.444864] (-) TimerEvent: {}
+[1.548055] (-) TimerEvent: {}
+[1.649931] (-) TimerEvent: {}
+[1.751919] (-) TimerEvent: {}
+[1.853860] (-) TimerEvent: {}
+[1.955683] (-) TimerEvent: {}
+[2.057564] (-) TimerEvent: {}
+[2.158890] (-) TimerEvent: {}
+[2.260643] (-) TimerEvent: {}
+[2.363827] (-) TimerEvent: {}
+[2.468677] (-) TimerEvent: {}
+[2.570739] (-) TimerEvent: {}
+[2.672607] (-) TimerEvent: {}
+[2.774743] (-) TimerEvent: {}
+[2.877718] (-) TimerEvent: {}
+[2.982809] (-) TimerEvent: {}
+[3.085899] (-) TimerEvent: {}
+[3.191826] (-) TimerEvent: {}
+[3.294606] (-) TimerEvent: {}
+[3.397905] (-) TimerEvent: {}
+[3.501755] (-) TimerEvent: {}
+[3.605737] (-) TimerEvent: {}
+[3.707616] (-) TimerEvent: {}
+[3.809734] (-) TimerEvent: {}
+[3.912053] (-) TimerEvent: {}
+[4.014854] (-) TimerEvent: {}
+[4.119842] (-) TimerEvent: {}
+[4.185572] (topic_demo_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/topic_demo_py', 'build', '--build-base', '/home/dotamy/project-name/src/build/topic_demo_py/build', 'install', '--record', '/home/dotamy/project-name/src/build/topic_demo_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dotamy/project-name/src/topic_demo_py', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/dotamy/project-name/src/topic_demo_py', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dotamy/project-name/src/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WDYI52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/dotamy/project-name/src/install/topic_demo_cpp:/home/dotamy/project-name/src/install/cpp_node_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'SUDO_USER': 'dotamy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dotamy/project-name/src/build/topic_demo_py', 'PYTHONPATH': '/home/dotamy/project-name/src/build/topic_demo_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dotamy/project-name/src/install/topic_demo_cpp:/home/dotamy/project-name/src/install/cpp_node_demo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.222032] (-) TimerEvent: {}
+[4.329608] (-) TimerEvent: {}
+[4.436460] (-) TimerEvent: {}
+[4.537756] (-) TimerEvent: {}
+[4.639342] (-) TimerEvent: {}
+[4.740689] (-) TimerEvent: {}
+[4.842551] (-) TimerEvent: {}
+[4.944389] (-) TimerEvent: {}
+[5.045718] (-) TimerEvent: {}
+[5.147709] (-) TimerEvent: {}
+[5.249699] (-) TimerEvent: {}
+[5.351717] (-) TimerEvent: {}
+[5.454720] (-) TimerEvent: {}
+[5.559619] (-) TimerEvent: {}
+[5.611472] (topic_demo_py) StdoutLine: {'line': b'running egg_info\n'}
+[5.612248] (topic_demo_py) StdoutLine: {'line': b'creating ../build/topic_demo_py/topic_demo_py.egg-info\n'}
+[5.660811] (-) TimerEvent: {}
+[5.730499] (topic_demo_py) StdoutLine: {'line': b'writing ../build/topic_demo_py/topic_demo_py.egg-info/PKG-INFO\n'}
+[5.732478] (topic_demo_py) StdoutLine: {'line': b'writing dependency_links to ../build/topic_demo_py/topic_demo_py.egg-info/dependency_links.txt\n'}
+[5.733981] (topic_demo_py) StdoutLine: {'line': b'writing requirements to ../build/topic_demo_py/topic_demo_py.egg-info/requires.txt\n'}
+[5.734906] (topic_demo_py) StdoutLine: {'line': b'writing top-level names to ../build/topic_demo_py/topic_demo_py.egg-info/top_level.txt\n'}
+[5.737327] (topic_demo_py) StdoutLine: {'line': b"writing manifest file '../build/topic_demo_py/topic_demo_py.egg-info/SOURCES.txt'\n"}
+[5.761754] (-) TimerEvent: {}
+[5.863831] (-) TimerEvent: {}
+[5.966263] (topic_demo_py) StdoutLine: {'line': b"reading manifest file '../build/topic_demo_py/topic_demo_py.egg-info/SOURCES.txt'\n"}
+[5.971192] (-) TimerEvent: {}
+[5.973265] (topic_demo_py) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.978080] (topic_demo_py) StdoutLine: {'line': b"writing manifest file '../build/topic_demo_py/topic_demo_py.egg-info/SOURCES.txt'\n"}
+[5.982044] (topic_demo_py) StdoutLine: {'line': b'running build\n'}
+[5.984980] (topic_demo_py) StdoutLine: {'line': b'running build_py\n'}
+[5.987008] (topic_demo_py) StdoutLine: {'line': b'creating /home/dotamy/project-name/src/build/topic_demo_py/build\n'}
+[5.989804] (topic_demo_py) StdoutLine: {'line': b'creating /home/dotamy/project-name/src/build/topic_demo_py/build/lib\n'}
+[5.992577] (topic_demo_py) StdoutLine: {'line': b'creating /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py\n'}
+[5.993054] (topic_demo_py) StdoutLine: {'line': b'copying topic_demo_py/__init__.py -> /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py\n'}
+[5.994078] (topic_demo_py) StdoutLine: {'line': b'copying topic_demo_py/subscriber.py -> /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py\n'}
+[5.994842] (topic_demo_py) StdoutLine: {'line': b'copying topic_demo_py/publisher.py -> /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py\n'}
+[5.995556] (topic_demo_py) StdoutLine: {'line': b'running install\n'}
+[5.996027] (topic_demo_py) StdoutLine: {'line': b'running install_lib\n'}
+[6.072873] (-) TimerEvent: {}
+[6.124237] (topic_demo_py) StdoutLine: {'line': b'creating /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py\n'}
+[6.124914] (topic_demo_py) StdoutLine: {'line': b'copying /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py/__init__.py -> /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py\n'}
+[6.125807] (topic_demo_py) StdoutLine: {'line': b'copying /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py/subscriber.py -> /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py\n'}
+[6.126605] (topic_demo_py) StdoutLine: {'line': b'copying /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py/publisher.py -> /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py\n'}
+[6.129723] (topic_demo_py) StdoutLine: {'line': b'byte-compiling /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py/__init__.py to __init__.cpython-312.pyc\n'}
+[6.135612] (topic_demo_py) StdoutLine: {'line': b'byte-compiling /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py/subscriber.py to subscriber.cpython-312.pyc\n'}
+[6.137027] (topic_demo_py) StdoutLine: {'line': b'byte-compiling /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py/publisher.py to publisher.cpython-312.pyc\n'}
+[6.137788] (topic_demo_py) StdoutLine: {'line': b'running install_data\n'}
+[6.141056] (topic_demo_py) StdoutLine: {'line': b'creating /home/dotamy/project-name/src/install/topic_demo_py/share/ament_index\n'}
+[6.142719] (topic_demo_py) StdoutLine: {'line': b'creating /home/dotamy/project-name/src/install/topic_demo_py/share/ament_index/resource_index\n'}
+[6.144932] (topic_demo_py) StdoutLine: {'line': b'creating /home/dotamy/project-name/src/install/topic_demo_py/share/ament_index/resource_index/packages\n'}
+[6.146606] (topic_demo_py) StdoutLine: {'line': b'copying resource/topic_demo_py -> /home/dotamy/project-name/src/install/topic_demo_py/share/ament_index/resource_index/packages\n'}
+[6.147633] (topic_demo_py) StdoutLine: {'line': b'copying package.xml -> /home/dotamy/project-name/src/install/topic_demo_py/share/topic_demo_py\n'}
+[6.148449] (topic_demo_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.174597] (-) TimerEvent: {}
+[6.247613] (topic_demo_py) StdoutLine: {'line': b'Copying ../build/topic_demo_py/topic_demo_py.egg-info to /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py-0.0.0-py3.12.egg-info\n'}
+[6.255959] (topic_demo_py) StdoutLine: {'line': b'running install_scripts\n'}
+[6.276643] (-) TimerEvent: {}
+[6.378788] (-) TimerEvent: {}
+[6.480728] (-) TimerEvent: {}
+[6.582529] (-) TimerEvent: {}
+[6.685279] (-) TimerEvent: {}
+[6.789579] (-) TimerEvent: {}
+[6.892957] (-) TimerEvent: {}
+[7.001668] (-) TimerEvent: {}
+[7.106639] (-) TimerEvent: {}
+[7.149691] (topic_demo_py) StdoutLine: {'line': b"writing list of installed files to '/home/dotamy/project-name/src/build/topic_demo_py/install.log'\n"}
+[7.213946] (-) TimerEvent: {}
+[7.225837] (topic_demo_py) CommandEnded: {'returncode': 0}
+[7.279467] (topic_demo_py) JobEnded: {'identifier': 'topic_demo_py', 'rc': 0}
+[7.289582] (-) EventReactorShutdown: {}

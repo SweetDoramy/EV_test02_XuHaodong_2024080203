@@ -1,0 +1,23 @@
+[0.064s] Invoking command in '/home/dotamy/project-name/src/build/topic_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8
+[0.630s] [ 25%] [32mBuilding CXX object CMakeFiles/subnode.dir/src/subscriber.cpp.o[0m
+[0.708s] [ 75%] Built target pubnode
+[10.739s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/subscriber.cpp:[m[K In lambda function:
+[10.741s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/subscriber.cpp:15:28:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K==[m[K’ token
+[10.743s]    15 |             if(string data [01;31m[K==[m[K "Hello, ROS2!"){
+[10.745s]       |                            [01;31m[K^~[m[K
+[10.746s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/subscriber.cpp:15:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K==[m[K’ token
+[10.747s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/subscriber.cpp:15:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[10.747s]    15 |             if[01;36m[K([m[Kstring data == "Hello, ROS2!"){
+[10.748s]       |               [01;36m[K^[m[K
+[10.749s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/subscriber.cpp:15:45:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kdata[m[K’ from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kbool[m[K’
+[10.749s]    15 |             if(string data == "Hello, ROS2!"[01;31m[K)[m[K{
+[10.750s]       |                                             [01;31m[K^[m[K
+[10.750s]       |                                             [01;31m[K|[m[K
+[10.751s]       |                                             [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[10.759s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/subscriber.cpp:17:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+[10.760s]    17 |                 [01;31m[Kpublisher[m[K->publish(msg);
+[10.760s]       |                 [01;31m[K^~~~~~~~~[m[K
+[17.505s] gmake[2]: *** [CMakeFiles/subnode.dir/build.make:76：CMakeFiles/subnode.dir/src/subscriber.cpp.o] 错误 1
+[17.506s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/subnode.dir/all] 错误 2
+[17.510s] gmake: *** [Makefile:146：all] 错误 2
+[17.539s] Invoked command in '/home/dotamy/project-name/src/build/topic_demo_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8

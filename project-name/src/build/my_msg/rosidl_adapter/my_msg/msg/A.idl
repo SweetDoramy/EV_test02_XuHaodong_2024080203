@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_msg/msg/A.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module my_msg {
+  module msg {
+    struct A {
+      @verbatim (language="comment", text=
+        "格式为：类型 名称")
+      sensor_msgs::msg::Image image;
+
+      string str;
+    };
+  };
+};

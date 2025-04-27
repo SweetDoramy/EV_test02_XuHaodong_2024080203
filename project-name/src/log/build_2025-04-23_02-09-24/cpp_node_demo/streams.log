@@ -1,0 +1,62 @@
+[0.068s] Invoking command in '/home/dotamy/project-name/src/build/cpp_node_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dotamy/project-name/src/cpp_node_demo -DCMAKE_INSTALL_PREFIX=/home/dotamy/project-name/src/install/cpp_node_demo
+[1.554s] -- The C compiler identification is GNU 13.3.0
+[2.726s] -- The CXX compiler identification is GNU 13.3.0
+[2.872s] -- Detecting C compiler ABI info
+[4.188s] -- Detecting C compiler ABI info - done
+[4.217s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.223s] -- Detecting C compile features
+[4.227s] -- Detecting C compile features - done
+[4.309s] -- Detecting CXX compiler ABI info
+[5.382s] -- Detecting CXX compiler ABI info - done
+[5.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.406s] -- Detecting CXX compile features
+[5.409s] -- Detecting CXX compile features - done
+[5.525s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.869s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.832s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[8.226s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[8.341s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[8.540s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.723s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.343s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[9.373s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[10.224s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[10.340s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[10.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.996s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[11.845s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.845s] -- Configured cppcheck include dirs: 
+[11.846s] -- Configured cppcheck exclude dirs and/or files: 
+[11.914s] -- Added test 'lint_cmake' to check CMake code style
+[12.081s] -- Added test 'uncrustify' to check C / C++ code style
+[12.082s] -- Configured uncrustify additional arguments: 
+[12.104s] -- Added test 'xmllint' to check XML markup files
+[12.115s] -- Configuring done (11.9s)
+[12.249s] -- Generating done (0.1s)
+[12.268s] -- Build files have been written to: /home/dotamy/project-name/src/build/cpp_node_demo
+[12.331s] Invoked command in '/home/dotamy/project-name/src/build/cpp_node_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/dotamy/project-name/src/cpp_node_demo -DCMAKE_INSTALL_PREFIX=/home/dotamy/project-name/src/install/cpp_node_demo
+[12.346s] Invoking command in '/home/dotamy/project-name/src/build/cpp_node_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/cpp_node_demo -- -j8 -l8
+[12.878s] [ 50%] [32mBuilding CXX object CMakeFiles/cppnode.dir/src/cpp_node.cpp.o[0m
+[34.975s] [100%] [32m[1mLinking CXX executable cppnode[0m
+[36.169s] [100%] Built target cppnode
+[36.263s] Invoked command in '/home/dotamy/project-name/src/build/cpp_node_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/cpp_node_demo -- -j8 -l8
+[36.346s] Invoking command in '/home/dotamy/project-name/src/build/cpp_node_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dotamy/project-name/src/build/cpp_node_demo
+[36.441s] -- Install configuration: ""
+[36.445s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/lib/cpp_node_demo/cppnode
+[36.461s] -- Set non-toolchain portion of runtime path of "/home/dotamy/project-name/src/install/cpp_node_demo/lib/cpp_node_demo/cppnode" to ""
+[36.470s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/ament_index/resource_index/package_run_dependencies/cpp_node_demo
+[36.478s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/ament_index/resource_index/parent_prefix_path/cpp_node_demo
+[36.479s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/environment/ament_prefix_path.sh
+[36.480s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/environment/ament_prefix_path.dsv
+[36.480s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/environment/path.sh
+[36.481s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/environment/path.dsv
+[36.482s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/local_setup.bash
+[36.483s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/local_setup.sh
+[36.484s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/local_setup.zsh
+[36.485s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/local_setup.dsv
+[36.487s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/package.dsv
+[36.487s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/ament_index/resource_index/packages/cpp_node_demo
+[36.488s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/cmake/cpp_node_demoConfig.cmake
+[36.491s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/cmake/cpp_node_demoConfig-version.cmake
+[36.491s] -- Installing: /home/dotamy/project-name/src/install/cpp_node_demo/share/cpp_node_demo/package.xml
+[36.501s] Invoked command in '/home/dotamy/project-name/src/build/cpp_node_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dotamy/project-name/src/build/cpp_node_demo

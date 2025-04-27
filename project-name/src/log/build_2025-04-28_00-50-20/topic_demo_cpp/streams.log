@@ -1,0 +1,41 @@
+[0.042s] Invoking command in '/home/dotamy/project-name/src/build/topic_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dotamy/project-name/src/install/topic_demo_py:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8
+[0.235s] [ 25%] [32mBuilding CXX object CMakeFiles/pubnode.dir/src/publisher.cpp.o[0m
+[0.258s] [ 75%] Built target subnode
+[4.307s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.308s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[4.309s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[4.309s]                  from [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:2[m[K:
+[4.310s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:[m[K In lambda function:
+[4.310s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:22:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.311s]    22 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"%s"[m[K,msg);  // ROS2日志输出
+[4.311s]       |                                             [01;35m[K^~~~[m[K
+[4.312s] [01m[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:22:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.312s]    22 |             RCLCPP_INFO(this->get_logger(), "[01;36m[K%s[m[K",msg);  // ROS2日志输出
+[4.313s]       |                                              [01;36m[K~^[m[K
+[4.313s]       |                                               [01;36m[K|[m[K
+[4.313s]       |                                               [01;36m[Kchar*[m[K
+[8.125s] [100%] [32m[1mLinking CXX executable pubnode[0m
+[8.533s] [100%] Built target pubnode
+[8.570s] Invoked command in '/home/dotamy/project-name/src/build/topic_demo_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dotamy/project-name/src/install/topic_demo_py:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8
+[8.596s] Invoking command in '/home/dotamy/project-name/src/build/topic_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dotamy/project-name/src/install/topic_demo_py:/opt/ros/jazzy /usr/bin/cmake --install /home/dotamy/project-name/src/build/topic_demo_cpp
+[8.617s] -- Install configuration: ""
+[8.617s] -- Installing: /home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/pubnode
+[8.622s] -- Set non-toolchain portion of runtime path of "/home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/pubnode" to ""
+[8.623s] -- Installing: /home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/subnode
+[8.640s] -- Set non-toolchain portion of runtime path of "/home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/subnode" to ""
+[8.640s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/ament_index/resource_index/package_run_dependencies/topic_demo_cpp
+[8.640s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/ament_index/resource_index/parent_prefix_path/topic_demo_cpp
+[8.641s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/ament_prefix_path.sh
+[8.641s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/ament_prefix_path.dsv
+[8.641s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/path.sh
+[8.641s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/path.dsv
+[8.642s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.bash
+[8.642s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.sh
+[8.642s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.zsh
+[8.642s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.dsv
+[8.642s] -- Installing: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.dsv
+[8.643s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/ament_index/resource_index/packages/topic_demo_cpp
+[8.643s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/cmake/topic_demo_cppConfig.cmake
+[8.643s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/cmake/topic_demo_cppConfig-version.cmake
+[8.643s] -- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.xml
+[8.651s] Invoked command in '/home/dotamy/project-name/src/build/topic_demo_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dotamy/project-name/src/install/topic_demo_py:/opt/ros/jazzy /usr/bin/cmake --install /home/dotamy/project-name/src/build/topic_demo_cpp

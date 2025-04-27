@@ -1,0 +1,7 @@
+[01m[K/home/dotamy/project-name/src/cpp_node_demo/src/cpp_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+    3 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cppnode.dir/build.make:76：CMakeFiles/cppnode.dir/src/cpp_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/cppnode.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

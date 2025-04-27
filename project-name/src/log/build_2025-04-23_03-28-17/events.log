@@ -1,0 +1,332 @@
+[0.000000] (-) TimerEvent: {}
+[0.005214] (-) JobUnselected: {'identifier': 'cpp_node_demo'}
+[0.005615] (-) JobUnselected: {'identifier': 'py_node_demo'}
+[0.005782] (topic_demo_cpp) JobQueued: {'identifier': 'topic_demo_cpp', 'dependencies': OrderedDict()}
+[0.005946] (topic_demo_cpp) JobStarted: {'identifier': 'topic_demo_cpp'}
+[0.080949] (topic_demo_cpp) JobProgress: {'identifier': 'topic_demo_cpp', 'progress': 'cmake'}
+[0.086557] (topic_demo_cpp) JobProgress: {'identifier': 'topic_demo_cpp', 'progress': 'build'}
+[0.086870] (topic_demo_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dotamy/project-name/src/build/topic_demo_cpp', '--', '-j8', '-l8'], 'cwd': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'env': OrderedDict({'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/dotamy/project-name/src/topic_demo_cpp', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dotamy/project-name/src/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WDYI52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/dotamy/project-name/src/install/topic_demo_cpp:/home/dotamy/project-name/src/install/cpp_node_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'SUDO_USER': 'dotamy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dotamy/project-name/src/install/topic_demo_cpp:/home/dotamy/project-name/src/install/cpp_node_demo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.101431] (-) TimerEvent: {}
+[0.203716] (-) TimerEvent: {}
+[0.305643] (-) TimerEvent: {}
+[0.407831] (-) TimerEvent: {}
+[0.509707] (-) TimerEvent: {}
+[0.525253] (topic_demo_cpp) StdoutLine: {'line': b'[ 50%] Built target pubnode\n'}
+[0.527570] (topic_demo_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/subnode.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.612825] (-) TimerEvent: {}
+[0.717771] (-) TimerEvent: {}
+[0.820948] (-) TimerEvent: {}
+[0.922711] (-) TimerEvent: {}
+[1.025792] (-) TimerEvent: {}
+[1.127634] (-) TimerEvent: {}
+[1.229762] (-) TimerEvent: {}
+[1.332421] (-) TimerEvent: {}
+[1.436577] (-) TimerEvent: {}
+[1.538085] (-) TimerEvent: {}
+[1.640948] (-) TimerEvent: {}
+[1.748075] (-) TimerEvent: {}
+[1.850880] (-) TimerEvent: {}
+[1.953938] (-) TimerEvent: {}
+[2.056078] (-) TimerEvent: {}
+[2.157793] (-) TimerEvent: {}
+[2.261959] (-) TimerEvent: {}
+[2.366793] (-) TimerEvent: {}
+[2.469109] (-) TimerEvent: {}
+[2.571967] (-) TimerEvent: {}
+[2.676744] (-) TimerEvent: {}
+[2.778746] (-) TimerEvent: {}
+[2.880926] (-) TimerEvent: {}
+[2.982720] (-) TimerEvent: {}
+[3.084410] (-) TimerEvent: {}
+[3.185877] (-) TimerEvent: {}
+[3.291765] (-) TimerEvent: {}
+[3.399791] (-) TimerEvent: {}
+[3.501649] (-) TimerEvent: {}
+[3.604760] (-) TimerEvent: {}
+[3.708815] (-) TimerEvent: {}
+[3.810876] (-) TimerEvent: {}
+[3.912777] (-) TimerEvent: {}
+[4.014803] (-) TimerEvent: {}
+[4.116926] (-) TimerEvent: {}
+[4.218733] (-) TimerEvent: {}
+[4.320836] (-) TimerEvent: {}
+[4.423695] (-) TimerEvent: {}
+[4.525923] (-) TimerEvent: {}
+[4.627907] (-) TimerEvent: {}
+[4.729704] (-) TimerEvent: {}
+[4.831783] (-) TimerEvent: {}
+[4.933907] (-) TimerEvent: {}
+[5.036877] (-) TimerEvent: {}
+[5.139132] (-) TimerEvent: {}
+[5.243213] (-) TimerEvent: {}
+[5.345024] (-) TimerEvent: {}
+[5.447685] (-) TimerEvent: {}
+[5.550843] (-) TimerEvent: {}
+[5.652830] (-) TimerEvent: {}
+[5.754733] (-) TimerEvent: {}
+[5.857732] (-) TimerEvent: {}
+[5.961677] (-) TimerEvent: {}
+[6.065058] (-) TimerEvent: {}
+[6.169003] (-) TimerEvent: {}
+[6.274887] (-) TimerEvent: {}
+[6.379487] (-) TimerEvent: {}
+[6.480863] (-) TimerEvent: {}
+[6.582773] (-) TimerEvent: {}
+[6.684976] (-) TimerEvent: {}
+[6.790001] (-) TimerEvent: {}
+[6.893768] (-) TimerEvent: {}
+[6.995975] (-) TimerEvent: {}
+[7.098960] (-) TimerEvent: {}
+[7.202713] (-) TimerEvent: {}
+[7.311005] (-) TimerEvent: {}
+[7.417979] (-) TimerEvent: {}
+[7.523144] (-) TimerEvent: {}
+[7.628878] (-) TimerEvent: {}
+[7.733218] (-) TimerEvent: {}
+[7.838441] (-) TimerEvent: {}
+[7.944774] (-) TimerEvent: {}
+[8.048874] (-) TimerEvent: {}
+[8.154937] (-) TimerEvent: {}
+[8.258838] (-) TimerEvent: {}
+[8.363851] (-) TimerEvent: {}
+[8.465847] (-) TimerEvent: {}
+[8.567783] (-) TimerEvent: {}
+[8.669875] (-) TimerEvent: {}
+[8.772761] (-) TimerEvent: {}
+[8.874638] (-) TimerEvent: {}
+[8.977725] (-) TimerEvent: {}
+[9.083639] (-) TimerEvent: {}
+[9.188850] (-) TimerEvent: {}
+[9.293739] (-) TimerEvent: {}
+[9.396800] (-) TimerEvent: {}
+[9.501866] (-) TimerEvent: {}
+[9.603768] (-) TimerEvent: {}
+[9.706355] (-) TimerEvent: {}
+[9.807786] (-) TimerEvent: {}
+[9.910144] (-) TimerEvent: {}
+[10.011984] (-) TimerEvent: {}
+[10.114839] (-) TimerEvent: {}
+[10.216181] (-) TimerEvent: {}
+[10.318583] (-) TimerEvent: {}
+[10.421967] (-) TimerEvent: {}
+[10.525946] (-) TimerEvent: {}
+[10.627784] (-) TimerEvent: {}
+[10.731966] (-) TimerEvent: {}
+[10.836839] (-) TimerEvent: {}
+[10.941928] (-) TimerEvent: {}
+[11.043831] (-) TimerEvent: {}
+[11.145713] (-) TimerEvent: {}
+[11.247894] (-) TimerEvent: {}
+[11.350791] (-) TimerEvent: {}
+[11.453709] (-) TimerEvent: {}
+[11.558813] (-) TimerEvent: {}
+[11.660764] (-) TimerEvent: {}
+[11.762675] (-) TimerEvent: {}
+[11.865390] (-) TimerEvent: {}
+[11.971789] (-) TimerEvent: {}
+[12.076096] (-) TimerEvent: {}
+[12.179834] (-) TimerEvent: {}
+[12.283972] (-) TimerEvent: {}
+[12.388868] (-) TimerEvent: {}
+[12.494862] (-) TimerEvent: {}
+[12.596912] (-) TimerEvent: {}
+[12.700184] (-) TimerEvent: {}
+[12.808290] (-) TimerEvent: {}
+[12.916974] (-) TimerEvent: {}
+[13.025764] (-) TimerEvent: {}
+[13.129771] (-) TimerEvent: {}
+[13.232230] (-) TimerEvent: {}
+[13.337892] (-) TimerEvent: {}
+[13.440463] (-) TimerEvent: {}
+[13.542459] (-) TimerEvent: {}
+[13.644552] (-) TimerEvent: {}
+[13.747692] (-) TimerEvent: {}
+[13.852937] (-) TimerEvent: {}
+[13.954998] (-) TimerEvent: {}
+[14.057803] (-) TimerEvent: {}
+[14.163802] (-) TimerEvent: {}
+[14.266754] (-) TimerEvent: {}
+[14.371172] (-) TimerEvent: {}
+[14.480759] (-) TimerEvent: {}
+[14.584741] (-) TimerEvent: {}
+[14.689500] (-) TimerEvent: {}
+[14.790607] (-) TimerEvent: {}
+[14.894074] (-) TimerEvent: {}
+[14.999687] (-) TimerEvent: {}
+[15.101746] (-) TimerEvent: {}
+[15.203788] (-) TimerEvent: {}
+[15.306811] (-) TimerEvent: {}
+[15.410990] (-) TimerEvent: {}
+[15.514902] (-) TimerEvent: {}
+[15.619734] (-) TimerEvent: {}
+[15.723729] (-) TimerEvent: {}
+[15.827470] (-) TimerEvent: {}
+[15.929023] (-) TimerEvent: {}
+[16.031741] (-) TimerEvent: {}
+[16.137071] (-) TimerEvent: {}
+[16.240078] (-) TimerEvent: {}
+[16.347916] (-) TimerEvent: {}
+[16.454770] (-) TimerEvent: {}
+[16.557775] (-) TimerEvent: {}
+[16.660364] (-) TimerEvent: {}
+[16.766264] (-) TimerEvent: {}
+[16.869739] (-) TimerEvent: {}
+[16.975910] (-) TimerEvent: {}
+[17.081126] (-) TimerEvent: {}
+[17.186736] (-) TimerEvent: {}
+[17.291803] (-) TimerEvent: {}
+[17.398011] (-) TimerEvent: {}
+[17.501382] (-) TimerEvent: {}
+[17.603811] (-) TimerEvent: {}
+[17.709198] (-) TimerEvent: {}
+[17.813857] (-) TimerEvent: {}
+[17.918850] (-) TimerEvent: {}
+[18.024841] (-) TimerEvent: {}
+[18.127732] (-) TimerEvent: {}
+[18.233831] (-) TimerEvent: {}
+[18.338059] (-) TimerEvent: {}
+[18.440733] (-) TimerEvent: {}
+[18.545757] (-) TimerEvent: {}
+[18.650730] (-) TimerEvent: {}
+[18.755811] (-) TimerEvent: {}
+[18.864773] (-) TimerEvent: {}
+[18.969002] (-) TimerEvent: {}
+[19.074702] (-) TimerEvent: {}
+[19.180737] (-) TimerEvent: {}
+[19.286046] (-) TimerEvent: {}
+[19.391712] (-) TimerEvent: {}
+[19.494699] (-) TimerEvent: {}
+[19.600365] (-) TimerEvent: {}
+[19.701787] (-) TimerEvent: {}
+[19.803956] (-) TimerEvent: {}
+[19.905788] (-) TimerEvent: {}
+[20.007743] (-) TimerEvent: {}
+[20.110731] (-) TimerEvent: {}
+[20.215804] (-) TimerEvent: {}
+[20.320782] (-) TimerEvent: {}
+[20.422751] (-) TimerEvent: {}
+[20.524752] (-) TimerEvent: {}
+[20.626718] (-) TimerEvent: {}
+[20.728751] (-) TimerEvent: {}
+[20.831761] (-) TimerEvent: {}
+[20.937847] (-) TimerEvent: {}
+[21.042843] (-) TimerEvent: {}
+[21.144836] (-) TimerEvent: {}
+[21.249809] (-) TimerEvent: {}
+[21.355037] (-) TimerEvent: {}
+[21.460955] (-) TimerEvent: {}
+[21.562965] (-) TimerEvent: {}
+[21.666724] (-) TimerEvent: {}
+[21.770794] (-) TimerEvent: {}
+[21.874960] (-) TimerEvent: {}
+[21.980002] (-) TimerEvent: {}
+[22.084731] (-) TimerEvent: {}
+[22.195983] (-) TimerEvent: {}
+[22.299995] (-) TimerEvent: {}
+[22.403832] (-) TimerEvent: {}
+[22.506760] (-) TimerEvent: {}
+[22.612778] (-) TimerEvent: {}
+[22.718871] (-) TimerEvent: {}
+[22.824131] (-) TimerEvent: {}
+[22.927838] (-) TimerEvent: {}
+[23.031846] (-) TimerEvent: {}
+[23.136850] (-) TimerEvent: {}
+[23.240946] (-) TimerEvent: {}
+[23.344799] (-) TimerEvent: {}
+[23.452809] (-) TimerEvent: {}
+[23.558144] (-) TimerEvent: {}
+[23.662725] (-) TimerEvent: {}
+[23.770267] (-) TimerEvent: {}
+[23.876377] (-) TimerEvent: {}
+[23.981904] (-) TimerEvent: {}
+[24.088683] (-) TimerEvent: {}
+[24.193792] (-) TimerEvent: {}
+[24.296779] (-) TimerEvent: {}
+[24.401865] (-) TimerEvent: {}
+[24.506501] (-) TimerEvent: {}
+[24.610152] (-) TimerEvent: {}
+[24.714635] (-) TimerEvent: {}
+[24.818197] (-) TimerEvent: {}
+[24.924781] (-) TimerEvent: {}
+[25.028214] (-) TimerEvent: {}
+[25.132941] (-) TimerEvent: {}
+[25.237636] (-) TimerEvent: {}
+[25.342748] (-) TimerEvent: {}
+[25.448771] (-) TimerEvent: {}
+[25.555001] (-) TimerEvent: {}
+[25.666866] (-) TimerEvent: {}
+[25.770053] (-) TimerEvent: {}
+[25.872486] (-) TimerEvent: {}
+[25.974944] (-) TimerEvent: {}
+[26.078880] (-) TimerEvent: {}
+[26.183187] (-) TimerEvent: {}
+[26.285778] (-) TimerEvent: {}
+[26.391817] (-) TimerEvent: {}
+[26.495369] (-) TimerEvent: {}
+[26.601917] (-) TimerEvent: {}
+[26.703879] (-) TimerEvent: {}
+[26.807514] (-) TimerEvent: {}
+[26.913773] (-) TimerEvent: {}
+[27.016078] (-) TimerEvent: {}
+[27.119001] (-) TimerEvent: {}
+[27.225692] (-) TimerEvent: {}
+[27.330849] (-) TimerEvent: {}
+[27.435147] (-) TimerEvent: {}
+[27.536955] (-) TimerEvent: {}
+[27.639839] (-) TimerEvent: {}
+[27.743878] (-) TimerEvent: {}
+[27.847567] (-) TimerEvent: {}
+[27.949973] (-) TimerEvent: {}
+[28.052233] (-) TimerEvent: {}
+[28.153916] (-) TimerEvent: {}
+[28.257699] (-) TimerEvent: {}
+[28.296865] (topic_demo_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subnode\x1b[0m\n'}
+[28.358798] (-) TimerEvent: {}
+[28.463001] (-) TimerEvent: {}
+[28.569320] (-) TimerEvent: {}
+[28.672865] (-) TimerEvent: {}
+[28.775919] (-) TimerEvent: {}
+[28.879847] (-) TimerEvent: {}
+[28.981835] (-) TimerEvent: {}
+[29.084842] (-) TimerEvent: {}
+[29.186499] (-) TimerEvent: {}
+[29.287702] (-) TimerEvent: {}
+[29.389569] (-) TimerEvent: {}
+[29.491521] (-) TimerEvent: {}
+[29.592691] (-) TimerEvent: {}
+[29.694651] (-) TimerEvent: {}
+[29.797437] (-) TimerEvent: {}
+[29.899652] (-) TimerEvent: {}
+[30.001473] (-) TimerEvent: {}
+[30.102734] (-) TimerEvent: {}
+[30.204883] (-) TimerEvent: {}
+[30.233871] (topic_demo_cpp) StdoutLine: {'line': b'[100%] Built target subnode\n'}
+[30.305870] (-) TimerEvent: {}
+[30.315730] (topic_demo_cpp) CommandEnded: {'returncode': 0}
+[30.319465] (topic_demo_cpp) JobProgress: {'identifier': 'topic_demo_cpp', 'progress': 'install'}
+[30.387744] (topic_demo_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dotamy/project-name/src/build/topic_demo_cpp'], 'cwd': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'env': OrderedDict({'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/dotamy/project-name/src/topic_demo_cpp', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dotamy/project-name/src/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WDYI52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/dotamy/project-name/src/install/topic_demo_cpp:/home/dotamy/project-name/src/install/cpp_node_demo:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'SUDO_USER': 'dotamy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dotamy/project-name/src/install/topic_demo_cpp:/home/dotamy/project-name/src/install/cpp_node_demo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[30.407738] (-) TimerEvent: {}
+[30.447446] (topic_demo_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.453406] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/pubnode\n'}
+[30.461488] (topic_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/subnode\n'}
+[30.507848] (topic_demo_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dotamy/project-name/src/install/topic_demo_cpp/lib/topic_demo_cpp/subnode" to ""\n'}
+[30.511020] (-) TimerEvent: {}
+[30.512456] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/ament_index/resource_index/package_run_dependencies/topic_demo_cpp\n'}
+[30.514738] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/ament_index/resource_index/parent_prefix_path/topic_demo_cpp\n'}
+[30.515625] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/ament_prefix_path.sh\n'}
+[30.516157] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/ament_prefix_path.dsv\n'}
+[30.516942] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/path.sh\n'}
+[30.517802] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/environment/path.dsv\n'}
+[30.519562] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.bash\n'}
+[30.520175] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.sh\n'}
+[30.520967] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.zsh\n'}
+[30.522643] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/local_setup.dsv\n'}
+[30.524902] (topic_demo_cpp) StdoutLine: {'line': b'-- Installing: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.dsv\n'}
+[30.529682] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/ament_index/resource_index/packages/topic_demo_cpp\n'}
+[30.535635] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/cmake/topic_demo_cppConfig.cmake\n'}
+[30.539263] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/cmake/topic_demo_cppConfig-version.cmake\n'}
+[30.546157] (topic_demo_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dotamy/project-name/src/install/topic_demo_cpp/share/topic_demo_cpp/package.xml\n'}
+[30.554558] (topic_demo_cpp) CommandEnded: {'returncode': 0}
+[30.612364] (-) TimerEvent: {}
+[30.646062] (topic_demo_cpp) JobEnded: {'identifier': 'topic_demo_cpp', 'rc': 0}
+[30.653779] (-) EventReactorShutdown: {}

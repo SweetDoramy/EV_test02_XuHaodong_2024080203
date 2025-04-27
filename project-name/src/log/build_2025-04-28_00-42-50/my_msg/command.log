@@ -1,0 +1,4 @@
+Invoking command in '/home/dotamy/project-name/src/build/my_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/my_msg -- -j8 -l8
+Invoked command in '/home/dotamy/project-name/src/build/my_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/my_msg -- -j8 -l8
+Invoking command in '/home/dotamy/project-name/src/build/my_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dotamy/project-name/src/build/my_msg
+Invoked command in '/home/dotamy/project-name/src/build/my_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/dotamy/project-name/src/build/my_msg

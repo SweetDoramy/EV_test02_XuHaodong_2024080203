@@ -1,0 +1,39 @@
+[4.184s] Invoking command in '/home/dotamy/project-name/src/topic_demo_py': PYTHONPATH=/home/dotamy/project-name/src/build/topic_demo_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/topic_demo_py build --build-base /home/dotamy/project-name/src/build/topic_demo_py/build install --record /home/dotamy/project-name/src/build/topic_demo_py/install.log --single-version-externally-managed install_data
+[5.606s] running egg_info
+[5.607s] creating ../build/topic_demo_py/topic_demo_py.egg-info
+[5.725s] writing ../build/topic_demo_py/topic_demo_py.egg-info/PKG-INFO
+[5.727s] writing dependency_links to ../build/topic_demo_py/topic_demo_py.egg-info/dependency_links.txt
+[5.728s] writing requirements to ../build/topic_demo_py/topic_demo_py.egg-info/requires.txt
+[5.730s] writing top-level names to ../build/topic_demo_py/topic_demo_py.egg-info/top_level.txt
+[5.731s] writing manifest file '../build/topic_demo_py/topic_demo_py.egg-info/SOURCES.txt'
+[5.964s] reading manifest file '../build/topic_demo_py/topic_demo_py.egg-info/SOURCES.txt'
+[5.970s] adding license file 'LICENSE'
+[5.974s] writing manifest file '../build/topic_demo_py/topic_demo_py.egg-info/SOURCES.txt'
+[5.978s] running build
+[5.980s] running build_py
+[5.982s] creating /home/dotamy/project-name/src/build/topic_demo_py/build
+[5.986s] creating /home/dotamy/project-name/src/build/topic_demo_py/build/lib
+[5.987s] creating /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py
+[5.988s] copying topic_demo_py/__init__.py -> /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py
+[5.988s] copying topic_demo_py/subscriber.py -> /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py
+[5.989s] copying topic_demo_py/publisher.py -> /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py
+[5.990s] running install
+[5.990s] running install_lib
+[6.118s] creating /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py
+[6.119s] copying /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py/__init__.py -> /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py
+[6.120s] copying /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py/subscriber.py -> /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py
+[6.123s] copying /home/dotamy/project-name/src/build/topic_demo_py/build/lib/topic_demo_py/publisher.py -> /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py
+[6.124s] byte-compiling /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py/__init__.py to __init__.cpython-312.pyc
+[6.130s] byte-compiling /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py/subscriber.py to subscriber.cpython-312.pyc
+[6.131s] byte-compiling /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py/publisher.py to publisher.cpython-312.pyc
+[6.133s] running install_data
+[6.136s] creating /home/dotamy/project-name/src/install/topic_demo_py/share/ament_index
+[6.138s] creating /home/dotamy/project-name/src/install/topic_demo_py/share/ament_index/resource_index
+[6.139s] creating /home/dotamy/project-name/src/install/topic_demo_py/share/ament_index/resource_index/packages
+[6.141s] copying resource/topic_demo_py -> /home/dotamy/project-name/src/install/topic_demo_py/share/ament_index/resource_index/packages
+[6.142s] copying package.xml -> /home/dotamy/project-name/src/install/topic_demo_py/share/topic_demo_py
+[6.142s] running install_egg_info
+[6.244s] Copying ../build/topic_demo_py/topic_demo_py.egg-info to /home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages/topic_demo_py-0.0.0-py3.12.egg-info
+[6.252s] running install_scripts
+[7.147s] writing list of installed files to '/home/dotamy/project-name/src/build/topic_demo_py/install.log'
+[7.225s] Invoked command in '/home/dotamy/project-name/src/topic_demo_py' returned '0': PYTHONPATH=/home/dotamy/project-name/src/build/topic_demo_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dotamy/project-name/src/install/topic_demo_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/topic_demo_py build --build-base /home/dotamy/project-name/src/build/topic_demo_py/build install --record /home/dotamy/project-name/src/build/topic_demo_py/install.log --single-version-externally-managed install_data

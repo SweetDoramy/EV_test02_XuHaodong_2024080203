@@ -1,0 +1,258 @@
+[0.000000] (-) TimerEvent: {}
+[0.001324] (cpp_node_demo) JobQueued: {'identifier': 'cpp_node_demo', 'dependencies': OrderedDict()}
+[0.001603] (py_node_demo) JobQueued: {'identifier': 'py_node_demo', 'dependencies': OrderedDict()}
+[0.002143] (topic_demo_cpp) JobQueued: {'identifier': 'topic_demo_cpp', 'dependencies': OrderedDict()}
+[0.002319] (topic_demo_py) JobQueued: {'identifier': 'topic_demo_py', 'dependencies': OrderedDict()}
+[0.002493] (cpp_node_demo) JobStarted: {'identifier': 'cpp_node_demo'}
+[0.040224] (py_node_demo) JobStarted: {'identifier': 'py_node_demo'}
+[0.073044] (topic_demo_cpp) JobStarted: {'identifier': 'topic_demo_cpp'}
+[0.107981] (topic_demo_py) JobStarted: {'identifier': 'topic_demo_py'}
+[0.108447] (-) TimerEvent: {}
+[0.135946] (cpp_node_demo) JobProgress: {'identifier': 'cpp_node_demo', 'progress': 'cmake'}
+[0.136631] (cpp_node_demo) JobProgress: {'identifier': 'cpp_node_demo', 'progress': 'build'}
+[0.139447] (cpp_node_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dotamy/project-name/src/build/cpp_node_demo', '--', '-j8', '-l8'], 'cwd': '/home/dotamy/project-name/src/build/cpp_node_demo', 'env': OrderedDict({'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/dotamy/project-name', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4XVP52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'SUDO_USER': 'dotamy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dotamy/project-name/src/build/cpp_node_demo', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.210049] (-) TimerEvent: {}
+[0.312137] (-) TimerEvent: {}
+[0.414186] (-) TimerEvent: {}
+[0.517032] (-) TimerEvent: {}
+[0.618281] (-) TimerEvent: {}
+[0.720291] (-) TimerEvent: {}
+[0.822160] (-) TimerEvent: {}
+[0.923937] (-) TimerEvent: {}
+[1.025357] (-) TimerEvent: {}
+[1.076372] (topic_demo_cpp) JobProgress: {'identifier': 'topic_demo_cpp', 'progress': 'cmake'}
+[1.081231] (topic_demo_cpp) JobProgress: {'identifier': 'topic_demo_cpp', 'progress': 'build'}
+[1.081431] (topic_demo_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dotamy/project-name/src/build/topic_demo_cpp', '--', '-j8', '-l8'], 'cwd': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'env': OrderedDict({'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/dotamy/project-name', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4XVP52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'SUDO_USER': 'dotamy', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/dotamy/project-name/src/build/topic_demo_cpp', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.091027] (cpp_node_demo) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.126197] (-) TimerEvent: {}
+[1.228261] (-) TimerEvent: {}
+[1.272054] (topic_demo_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.329249] (-) TimerEvent: {}
+[1.415069] (cpp_node_demo) StdoutLine: {'line': b'-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.430127] (-) TimerEvent: {}
+[1.533115] (-) TimerEvent: {}
+[1.542589] (cpp_node_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.588513] (cpp_node_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.634187] (-) TimerEvent: {}
+[1.644160] (cpp_node_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.706887] (cpp_node_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.735684] (-) TimerEvent: {}
+[1.837227] (-) TimerEvent: {}
+[1.943642] (-) TimerEvent: {}
+[1.968503] (cpp_node_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.981055] (cpp_node_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.045180] (-) TimerEvent: {}
+[2.151015] (-) TimerEvent: {}
+[2.253043] (-) TimerEvent: {}
+[2.312468] (cpp_node_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.354230] (-) TimerEvent: {}
+[2.430308] (topic_demo_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.456963] (-) TimerEvent: {}
+[2.522835] (cpp_node_demo) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[2.528052] (cpp_node_demo) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'std_msgs' was not\n"}
+[2.528555] (cpp_node_demo) StderrLine: {'line': b'  found before\n'}
+[2.529362] (cpp_node_demo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.530070] (cpp_node_demo) StderrLine: {'line': b'  CMakeLists.txt:15 (ament_target_dependencies)\n'}
+[2.530530] (cpp_node_demo) StderrLine: {'line': b'\n'}
+[2.531253] (cpp_node_demo) StderrLine: {'line': b'\x1b[0m\n'}
+[2.531978] (cpp_node_demo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.554435] (topic_demo_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.558106] (-) TimerEvent: {}
+[2.566490] (cpp_node_demo) StderrLine: {'line': b'gmake: *** [Makefile:267\xef\xbc\x9acmake_check_build_system] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.589915] (cpp_node_demo) CommandEnded: {'returncode': 2}
+[2.612570] (topic_demo_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.640947] (cpp_node_demo) JobEnded: {'identifier': 'cpp_node_demo', 'rc': 2}
+[2.659119] (-) TimerEvent: {}
+[2.674999] (topic_demo_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.736621] (topic_demo_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.760160] (-) TimerEvent: {}
+[2.862188] (-) TimerEvent: {}
+[2.964236] (-) TimerEvent: {}
+[2.966422] (topic_demo_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.973347] (topic_demo_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.065330] (-) TimerEvent: {}
+[3.171113] (-) TimerEvent: {}
+[3.272980] (-) TimerEvent: {}
+[3.280127] (topic_demo_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.374227] (-) TimerEvent: {}
+[3.477257] (-) TimerEvent: {}
+[3.480137] (topic_demo_cpp) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[3.525854] (topic_demo_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.580062] (-) TimerEvent: {}
+[3.682028] (-) TimerEvent: {}
+[3.784193] (-) TimerEvent: {}
+[3.887504] (-) TimerEvent: {}
+[3.944205] (topic_demo_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.945054] (topic_demo_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.945535] (topic_demo_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.949137] (topic_demo_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.958929] (topic_demo_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.959532] (topic_demo_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.969111] (topic_demo_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.971353] (topic_demo_cpp) StdoutLine: {'line': b'-- Configuring done (2.7s)\n'}
+[3.989487] (-) TimerEvent: {}
+[4.088976] (topic_demo_cpp) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.089527] (-) TimerEvent: {}
+[4.110827] (topic_demo_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/dotamy/project-name/src/build/topic_demo_cpp\n'}
+[4.190196] (-) TimerEvent: {}
+[4.297118] (-) TimerEvent: {}
+[4.400158] (-) TimerEvent: {}
+[4.502120] (-) TimerEvent: {}
+[4.507858] (topic_demo_cpp) StdoutLine: {'line': b'[ 50%] Built target subnode\n'}
+[4.532508] (topic_demo_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/pubnode.dir/src/publisher.cpp.o\x1b[0m\n'}
+[4.604002] (-) TimerEvent: {}
+[4.708895] (-) TimerEvent: {}
+[4.810381] (-) TimerEvent: {}
+[4.867634] (topic_demo_py) JobEnded: {'identifier': 'topic_demo_py', 'rc': 'SIGINT'}
+[4.889502] (py_node_demo) JobEnded: {'identifier': 'py_node_demo', 'rc': 'SIGINT'}
+[4.911502] (-) TimerEvent: {}
+[5.013247] (-) TimerEvent: {}
+[5.115214] (-) TimerEvent: {}
+[5.218245] (-) TimerEvent: {}
+[5.320293] (-) TimerEvent: {}
+[5.424290] (-) TimerEvent: {}
+[5.527153] (-) TimerEvent: {}
+[5.630885] (-) TimerEvent: {}
+[5.732220] (-) TimerEvent: {}
+[5.834996] (-) TimerEvent: {}
+[5.939006] (-) TimerEvent: {}
+[6.042139] (-) TimerEvent: {}
+[6.145217] (-) TimerEvent: {}
+[6.250152] (-) TimerEvent: {}
+[6.352193] (-) TimerEvent: {}
+[6.455085] (-) TimerEvent: {}
+[6.561208] (-) TimerEvent: {}
+[6.665560] (-) TimerEvent: {}
+[6.769784] (-) TimerEvent: {}
+[6.872409] (-) TimerEvent: {}
+[6.975116] (-) TimerEvent: {}
+[7.076899] (-) TimerEvent: {}
+[7.179497] (-) TimerEvent: {}
+[7.282292] (-) TimerEvent: {}
+[7.385321] (-) TimerEvent: {}
+[7.487278] (-) TimerEvent: {}
+[7.589200] (-) TimerEvent: {}
+[7.691254] (-) TimerEvent: {}
+[7.793694] (-) TimerEvent: {}
+[7.897312] (-) TimerEvent: {}
+[8.000702] (-) TimerEvent: {}
+[8.103298] (-) TimerEvent: {}
+[8.205365] (-) TimerEvent: {}
+[8.308309] (-) TimerEvent: {}
+[8.410893] (-) TimerEvent: {}
+[8.513413] (-) TimerEvent: {}
+[8.615382] (-) TimerEvent: {}
+[8.720117] (-) TimerEvent: {}
+[8.825605] (-) TimerEvent: {}
+[8.927344] (-) TimerEvent: {}
+[9.029290] (-) TimerEvent: {}
+[9.132273] (-) TimerEvent: {}
+[9.234278] (-) TimerEvent: {}
+[9.336202] (-) TimerEvent: {}
+[9.438145] (-) TimerEvent: {}
+[9.540167] (-) TimerEvent: {}
+[9.642861] (-) TimerEvent: {}
+[9.745286] (-) TimerEvent: {}
+[9.850047] (-) TimerEvent: {}
+[9.951495] (-) TimerEvent: {}
+[10.058121] (-) TimerEvent: {}
+[10.160187] (-) TimerEvent: {}
+[10.264083] (-) TimerEvent: {}
+[10.367251] (-) TimerEvent: {}
+[10.469193] (-) TimerEvent: {}
+[10.571236] (-) TimerEvent: {}
+[10.673159] (-) TimerEvent: {}
+[10.775332] (-) TimerEvent: {}
+[10.878064] (-) TimerEvent: {}
+[10.981947] (-) TimerEvent: {}
+[11.084354] (-) TimerEvent: {}
+[11.186184] (-) TimerEvent: {}
+[11.288202] (-) TimerEvent: {}
+[11.390426] (-) TimerEvent: {}
+[11.492282] (-) TimerEvent: {}
+[11.595259] (-) TimerEvent: {}
+[11.698091] (-) TimerEvent: {}
+[11.800242] (-) TimerEvent: {}
+[11.902477] (-) TimerEvent: {}
+[12.006209] (-) TimerEvent: {}
+[12.108168] (-) TimerEvent: {}
+[12.214231] (-) TimerEvent: {}
+[12.317036] (-) TimerEvent: {}
+[12.418333] (-) TimerEvent: {}
+[12.521387] (-) TimerEvent: {}
+[12.624442] (-) TimerEvent: {}
+[12.727473] (-) TimerEvent: {}
+[12.829176] (-) TimerEvent: {}
+[12.931084] (-) TimerEvent: {}
+[13.032931] (-) TimerEvent: {}
+[13.135283] (-) TimerEvent: {}
+[13.238182] (-) TimerEvent: {}
+[13.341240] (-) TimerEvent: {}
+[13.443473] (-) TimerEvent: {}
+[13.546566] (-) TimerEvent: {}
+[13.648935] (-) TimerEvent: {}
+[13.750722] (-) TimerEvent: {}
+[13.852399] (-) TimerEvent: {}
+[13.954674] (-) TimerEvent: {}
+[14.057420] (-) TimerEvent: {}
+[14.159093] (-) TimerEvent: {}
+[14.260420] (-) TimerEvent: {}
+[14.364638] (-) TimerEvent: {}
+[14.468321] (-) TimerEvent: {}
+[14.526067] (topic_demo_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[14.530608] (topic_demo_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[14.535433] (topic_demo_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[14.539395] (topic_demo_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:2\x1b[m\x1b[K:\n'}
+[14.543278] (topic_demo_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[14.546405] (topic_demo_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dotamy/project-name/src/topic_demo_cpp/src/publisher.cpp:26:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.547473] (topic_demo_cpp) StderrLine: {'line': b'   26 |             RCLCPP_INFO(this->get_logger(), \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K);  // ROS2\xe6\x97\xa5\xe5\xbf\x97\xe8\xbe\x93\xe5\x87\xba\n'}
+[14.548241] (topic_demo_cpp) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[14.548960] (topic_demo_cpp) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[14.549468] (topic_demo_cpp) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[Kstd_msgs::msg::String_<std::allocator<void> >\x1b[m\x1b[K\n'}
+[14.550185] (topic_demo_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rmw/rmw/types.h:28\x1b[m\x1b[K,\n'}
+[14.550639] (topic_demo_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rcl/rcl/types.h:20\x1b[m\x1b[K,\n'}
+[14.551380] (topic_demo_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:23\x1b[m\x1b[K,\n'}
+[14.552098] (topic_demo_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp:18\x1b[m\x1b[K,\n'}
+[14.552550] (topic_demo_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:25\x1b[m\x1b[K,\n'}
+[14.553293] (topic_demo_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:25\x1b[m\x1b[K:\n'}
+[14.554041] (topic_demo_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rcutils/rcutils/logging.h:473:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 4 of \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[01;32m\x1b[K rcutils_log_internal\x1b[m\x1b[K(const rcutils_log_location_t*, int, const char*, const char*, ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[14.554519] (topic_demo_cpp) StderrLine: {'line': b'  473 |   \x1b[01;36m\x1b[Kconst char * format\x1b[m\x1b[K,\n'}
+[14.555252] (topic_demo_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[14.569640] (-) TimerEvent: {}
+[14.672430] (-) TimerEvent: {}
+[14.777148] (-) TimerEvent: {}
+[14.885084] (-) TimerEvent: {}
+[14.987282] (-) TimerEvent: {}
+[15.090221] (-) TimerEvent: {}
+[15.197416] (-) TimerEvent: {}
+[15.304759] (-) TimerEvent: {}
+[15.409198] (-) TimerEvent: {}
+[15.514231] (-) TimerEvent: {}
+[15.616344] (-) TimerEvent: {}
+[15.718611] (-) TimerEvent: {}
+[15.820687] (-) TimerEvent: {}
+[15.924244] (-) TimerEvent: {}
+[16.029469] (-) TimerEvent: {}
+[16.133238] (-) TimerEvent: {}
+[16.238088] (-) TimerEvent: {}
+[16.344550] (-) TimerEvent: {}
+[16.449214] (-) TimerEvent: {}
+[16.553293] (-) TimerEvent: {}
+[16.656303] (-) TimerEvent: {}
+[16.761048] (-) TimerEvent: {}
+[16.865458] (-) TimerEvent: {}
+[16.974163] (-) TimerEvent: {}
+[17.075502] (-) TimerEvent: {}
+[17.177408] (-) TimerEvent: {}
+[17.281315] (-) TimerEvent: {}
+[17.385675] (-) TimerEvent: {}
+[17.488857] (-) TimerEvent: {}
+[17.593422] (-) TimerEvent: {}
+[17.695172] (-) TimerEvent: {}
+[17.797454] (-) TimerEvent: {}
+[17.900280] (-) TimerEvent: {}
+[17.938616] (topic_demo_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pubnode.dir/build.make:76\xef\xbc\x9aCMakeFiles/pubnode.dir/src/publisher.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[17.946603] (topic_demo_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/pubnode.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[17.953631] (topic_demo_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[17.975848] (topic_demo_cpp) JobEnded: {'identifier': 'topic_demo_cpp', 'rc': 'SIGINT'}
+[17.990748] (-) EventReactorShutdown: {}

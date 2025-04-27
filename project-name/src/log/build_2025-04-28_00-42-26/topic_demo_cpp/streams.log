@@ -1,0 +1,5 @@
+[0.471s] Invoking command in '/home/dotamy/project-name/src/build/topic_demo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/dotamy/project-name/src/build/topic_demo_cpp -- -j8 -l8
+[0.717s] [ 25%] [32mBuilding CXX object CMakeFiles/pubnode.dir/src/publisher.cpp.o[0m
+[0.739s] [ 75%] Built target subnode
+[9.886s] [100%] [32m[1mLinking CXX executable pubnode[0m
+[10.531s] [100%] Built target pubnode
